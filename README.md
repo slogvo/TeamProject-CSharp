@@ -4,8 +4,8 @@
 
 Đề tài quản lý thư viện Đại học Công nghệ thông tin
 
+## Công nghệ được sử dụng:
+
 ## Cài đặt:
 
 ## Cách sử dụng:
-
-## Công nghệ được sử dụng:
