@@ -160,6 +160,18 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="reading-book.ico" />
+    <None Include="Resources\btnXoaYeuCauTaiLieuMoi.Image.png" />
+    <None Include="Resources\btnTimKiemPhieuTra.Image.png" />
+    <None Include="Resources\btnTimKiemPhieuMuon.Image.png" />
+    <None Include="Resources\btnSearchTaiLieu.Image.png" />
+    <None Include="Resources\btnSearchPNN.Image.png" />
+    <None Include="Resources\btnSearchDocGia.Image.png" />
+    <None Include="Resources\btnQuanTriAdmin.Image.png" />
+    <None Include="Resources\btnQuanLyPhieu.Image.png" />
+    <None Include="Resources\btnPanelSach.Image.png" />
+    <None Include="Resources\btnDocGia.Image.png" />
+    <None Include="Resources\btnSearchPP.Image.png" />
+    <None Include="Resources\btnBaoCaoThongKe.Image.png" />
     <None Include="Resources\ptB_AnhNhanVien.Image.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -267,7 +267,7 @@
             // lblCaTrucNVDangKy
             // 
             this.lblCaTrucNVDangKy.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.lblCaTrucNVDangKy.Font = new System.Drawing.Font("Segoe UI", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.lblCaTrucNVDangKy.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.lblCaTrucNVDangKy.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.lblCaTrucNVDangKy.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.lblCaTrucNVDangKy.Location = new System.Drawing.Point(334, 354);
