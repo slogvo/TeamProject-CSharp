@@ -28,7 +28,7 @@ namespace GUI_QuanLy
         BUS_NhanVien busUP = new BUS_NhanVien();
         BUS_TaiLieu TL = new BUS_TaiLieu();
 
-        public string pathReport = @"C:\\Users\\Windows 8.1 Ultimate\\Desktop\\QLTV_Offical\\QuanLyThuVien\\GUI_QuanLy\\";
+        public string pathReport = @"C:\Users\ASUS\TeamProject-CSharp\QuanLyThuVien\GUI_QuanLy";
         /*
          * PHẦN XỬ LÝ GIAO DIỆN FORM
          */
@@ -269,7 +269,7 @@ namespace GUI_QuanLy
 
         private void btnLogout_Click(object sender, EventArgs e)
         {
-            if (MessageBox.Show(string.Format("Xác nhận Đăng Xuất Tài Khoản "+ userName.Text.ToUpper()), "Xác nhận ", MessageBoxButtons.YesNo) == DialogResult.Yes)
+            if (MessageBox.Show(string.Format("Xác nhận đăng xuất tài khoản "+ userName.Text.ToUpper()), "Xác nhận ", MessageBoxButtons.YesNo) == DialogResult.Yes)
             {
                 GUI_DangNhap f_DN = new GUI_DangNhap();
                 f_DN.Show();
