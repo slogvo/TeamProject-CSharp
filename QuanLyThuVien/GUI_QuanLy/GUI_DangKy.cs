@@ -90,7 +90,7 @@ namespace GUI_QuanLy
             {
                 string hotennv = txtHoTenNVDangKy.Text;
                 string user = txtUserNVDangKy.Text;
-                string salt = "QUYETDAICA1997";
+                string salt = "LONGVO";
                 string pass = EncodeSHA1(txtPassNVDangKy.Text + salt);
                 string loai = "";
                 string ca = "";
@@ -151,6 +151,21 @@ namespace GUI_QuanLy
             GUI_DangNhap frmDangNhap = new GUI_DangNhap();
             frmDangNhap.Show();
             this.Close();
+        }
+
+        private void txtCaNVDangKy_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblCaTrucNVDangKy_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click_1(object sender, EventArgs e)
+        {
+
         }
 
         private void rdAdminDangKy_CheckedChanged(object sender, EventArgs e)

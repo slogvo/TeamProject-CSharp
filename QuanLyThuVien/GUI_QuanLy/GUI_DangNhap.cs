@@ -91,7 +91,7 @@ namespace GUI_QuanLy
         private void btnDangNhap_Click(object sender, EventArgs e)
         {
             string username = txtUSER.Text;
-            string salt = "QUYETDAICA1997";
+            string salt = "LONGVO";
             string password = EncodeSHA1(txtPASS.Text + salt);
             string NameUser = busDangNhap.getNameUser_Login(username, password);
             string Quyen = busDangNhap.getPermissionUser_Login(username, password);
@@ -122,6 +122,26 @@ namespace GUI_QuanLy
         }
 
         private void cbNhoPassWord_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtUSER_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lbPassword_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label5_Click(object sender, EventArgs e)
         {
 
         }

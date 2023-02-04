@@ -33,27 +33,27 @@
             this.lbUserName = new System.Windows.Forms.Label();
             this.btnDangKy = new System.Windows.Forms.Button();
             this.btnDangNhap = new System.Windows.Forms.Button();
-            this.label5 = new System.Windows.Forms.Label();
             this.lbPassword = new System.Windows.Forms.Label();
             this.btnClosed = new System.Windows.Forms.Button();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.txtUSER = new System.Windows.Forms.TextBox();
             this.txtPASS = new System.Windows.Forms.TextBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            this.label5 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // lbTittle
             // 
             this.lbTittle.AutoSize = true;
             this.lbTittle.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.lbTittle.Font = new System.Drawing.Font("Constantia", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbTittle.ForeColor = System.Drawing.Color.Lime;
-            this.lbTittle.Location = new System.Drawing.Point(249, 31);
+            this.lbTittle.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.lbTittle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(23)))), ((int)(((byte)(39)))));
+            this.lbTittle.Location = new System.Drawing.Point(55, 38);
             this.lbTittle.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbTittle.Name = "lbTittle";
-            this.lbTittle.Size = new System.Drawing.Size(482, 37);
+            this.lbTittle.Size = new System.Drawing.Size(357, 41);
             this.lbTittle.TabIndex = 0;
-            this.lbTittle.Text = "PHẦM MỀM QUẢN LÝ THƯ VIỆN";
+            this.lbTittle.Text = "QUẢN LÝ THƯ VIỆN UIT";
             this.lbTittle.Click += new System.EventHandler(this.label1_Click);
             this.lbTittle.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Form1_MouseDown);
             this.lbTittle.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Form1_MouseMove);
@@ -62,34 +62,32 @@
             // lbUserName
             // 
             this.lbUserName.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.lbUserName.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbUserName.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.lbUserName.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lbUserName.Image = ((System.Drawing.Image)(resources.GetObject("lbUserName.Image")));
             this.lbUserName.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lbUserName.Location = new System.Drawing.Point(131, 129);
+            this.lbUserName.Location = new System.Drawing.Point(58, 110);
             this.lbUserName.Margin = new System.Windows.Forms.Padding(0);
             this.lbUserName.Name = "lbUserName";
             this.lbUserName.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.lbUserName.Size = new System.Drawing.Size(229, 66);
+            this.lbUserName.Size = new System.Drawing.Size(207, 38);
             this.lbUserName.TabIndex = 1;
-            this.lbUserName.Text = "Tên Đăng Nhập :";
-            this.lbUserName.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.lbUserName.Text = "Tên đăng nhập";
             this.lbUserName.UseCompatibleTextRendering = true;
             this.lbUserName.Click += new System.EventHandler(this.label2_Click);
             // 
             // btnDangKy
             // 
-            this.btnDangKy.BackColor = System.Drawing.Color.Turquoise;
+            this.btnDangKy.BackColor = System.Drawing.Color.White;
             this.btnDangKy.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnDangKy.FlatAppearance.BorderColor = System.Drawing.Color.Blue;
             this.btnDangKy.FlatAppearance.BorderSize = 0;
             this.btnDangKy.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnDangKy.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDangKy.ForeColor = System.Drawing.Color.White;
-            this.btnDangKy.Location = new System.Drawing.Point(396, 386);
-            this.btnDangKy.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnDangKy.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDangKy.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(23)))), ((int)(((byte)(39)))));
+            this.btnDangKy.Location = new System.Drawing.Point(61, 408);
+            this.btnDangKy.Margin = new System.Windows.Forms.Padding(4);
             this.btnDangKy.Name = "btnDangKy";
-            this.btnDangKy.Size = new System.Drawing.Size(188, 43);
+            this.btnDangKy.Size = new System.Drawing.Size(380, 43);
             this.btnDangKy.TabIndex = 5;
             this.btnDangKy.Text = "Đăng ký";
             this.btnDangKy.UseVisualStyleBackColor = false;
@@ -97,51 +95,38 @@
             // 
             // btnDangNhap
             // 
-            this.btnDangNhap.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(86)))), ((int)(((byte)(94)))));
+            this.btnDangNhap.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(23)))), ((int)(((byte)(39)))));
             this.btnDangNhap.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnDangNhap.FlatAppearance.BorderColor = System.Drawing.Color.Blue;
             this.btnDangNhap.FlatAppearance.BorderSize = 0;
             this.btnDangNhap.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.btnDangNhap.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnDangNhap.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDangNhap.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDangNhap.ForeColor = System.Drawing.Color.White;
-            this.btnDangNhap.Location = new System.Drawing.Point(696, 167);
-            this.btnDangNhap.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnDangNhap.Location = new System.Drawing.Point(61, 294);
+            this.btnDangNhap.Margin = new System.Windows.Forms.Padding(4);
             this.btnDangNhap.Name = "btnDangNhap";
-            this.btnDangNhap.Size = new System.Drawing.Size(177, 47);
+            this.btnDangNhap.Size = new System.Drawing.Size(380, 47);
             this.btnDangNhap.TabIndex = 7;
             this.btnDangNhap.Text = "Đăng Nhập";
             this.btnDangNhap.UseVisualStyleBackColor = false;
             this.btnDangNhap.Click += new System.EventHandler(this.btnDangNhap_Click);
             // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label5.Location = new System.Drawing.Point(368, 327);
-            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(225, 23);
-            this.label5.TabIndex = 9;
-            this.label5.Text = "Hoặc Tạo Mới Tài Khoản";
-            // 
             // lbPassword
             // 
             this.lbPassword.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.lbPassword.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbPassword.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.lbPassword.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lbPassword.Image = ((System.Drawing.Image)(resources.GetObject("lbPassword.Image")));
             this.lbPassword.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lbPassword.Location = new System.Drawing.Point(131, 196);
+            this.lbPassword.Location = new System.Drawing.Point(58, 195);
             this.lbPassword.Margin = new System.Windows.Forms.Padding(0);
             this.lbPassword.Name = "lbPassword";
             this.lbPassword.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.lbPassword.Size = new System.Drawing.Size(229, 65);
+            this.lbPassword.Size = new System.Drawing.Size(135, 31);
             this.lbPassword.TabIndex = 11;
-            this.lbPassword.Text = "Mật Khẩu :";
-            this.lbPassword.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.lbPassword.Text = "Mật khẩu";
             this.lbPassword.UseCompatibleTextRendering = true;
+            this.lbPassword.Click += new System.EventHandler(this.lbPassword_Click);
             // 
             // btnClosed
             // 
@@ -154,53 +139,69 @@
             this.btnClosed.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
             this.btnClosed.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnClosed.Image = ((System.Drawing.Image)(resources.GetObject("btnClosed.Image")));
-            this.btnClosed.Location = new System.Drawing.Point(989, -1);
+            this.btnClosed.Location = new System.Drawing.Point(902, -1);
             this.btnClosed.Margin = new System.Windows.Forms.Padding(4, 4, 13, 4);
             this.btnClosed.Name = "btnClosed";
-            this.btnClosed.Size = new System.Drawing.Size(49, 43);
+            this.btnClosed.Size = new System.Drawing.Size(58, 58);
             this.btnClosed.TabIndex = 12;
             this.btnClosed.UseVisualStyleBackColor = false;
             this.btnClosed.Click += new System.EventHandler(this.button3_Click);
             // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(41, 31);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(97, 70);
-            this.pictureBox2.TabIndex = 20;
-            this.pictureBox2.TabStop = false;
-            // 
             // txtUSER
             // 
             this.txtUSER.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtUSER.Location = new System.Drawing.Point(379, 148);
-            this.txtUSER.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtUSER.Location = new System.Drawing.Point(61, 142);
+            this.txtUSER.Margin = new System.Windows.Forms.Padding(4);
+            this.txtUSER.Multiline = true;
             this.txtUSER.Name = "txtUSER";
-            this.txtUSER.Size = new System.Drawing.Size(241, 30);
+            this.txtUSER.Size = new System.Drawing.Size(380, 40);
             this.txtUSER.TabIndex = 21;
+            this.txtUSER.TextChanged += new System.EventHandler(this.txtUSER_TextChanged);
             // 
             // txtPASS
             // 
             this.txtPASS.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtPASS.Location = new System.Drawing.Point(380, 212);
-            this.txtPASS.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtPASS.Location = new System.Drawing.Point(61, 230);
+            this.txtPASS.Margin = new System.Windows.Forms.Padding(4);
+            this.txtPASS.Multiline = true;
             this.txtPASS.Name = "txtPASS";
-            this.txtPASS.Size = new System.Drawing.Size(241, 30);
+            this.txtPASS.Size = new System.Drawing.Size(380, 40);
             this.txtPASS.TabIndex = 22;
             this.txtPASS.TextChanged += new System.EventHandler(this.txtPASS_TextChanged);
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.label5.Location = new System.Drawing.Point(164, 369);
+            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(171, 24);
+            this.label5.TabIndex = 9;
+            this.label5.Text = "Chưa có tài khoản?";
+            this.label5.Click += new System.EventHandler(this.label5_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(495, -1);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(465, 532);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 23;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // GUI_DangNhap
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoValidate = System.Windows.Forms.AutoValidate.EnablePreventFocusChange;
-            this.ClientSize = new System.Drawing.Size(1039, 497);
+            this.ClientSize = new System.Drawing.Size(958, 529);
             this.ControlBox = false;
             this.Controls.Add(this.txtPASS);
             this.Controls.Add(this.txtUSER);
-            this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.btnClosed);
             this.Controls.Add(this.lbPassword);
             this.Controls.Add(this.label5);
@@ -208,16 +209,17 @@
             this.Controls.Add(this.btnDangKy);
             this.Controls.Add(this.lbUserName);
             this.Controls.Add(this.lbTittle);
+            this.Controls.Add(this.pictureBox1);
             this.Cursor = System.Windows.Forms.Cursors.Default;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "GUI_DangNhap";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Form1_MouseDown);
             this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Form1_MouseMove);
             this.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Form1_MouseUp);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -229,12 +231,12 @@
         private System.Windows.Forms.Label lbUserName;
         private System.Windows.Forms.Button btnDangKy;
         private System.Windows.Forms.Button btnDangNhap;
-        private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label lbPassword;
         private System.Windows.Forms.Button btnClosed;
-        private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.TextBox txtUSER;
         private System.Windows.Forms.TextBox txtPASS;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 
