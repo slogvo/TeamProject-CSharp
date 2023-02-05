@@ -28,7 +28,7 @@ namespace GUI_QuanLy
         BUS_NhanVien busUP = new BUS_NhanVien();
         BUS_TaiLieu TL = new BUS_TaiLieu();
 
-        public string pathReport = @"C:\Users\ASUS\TeamProject-CSharp\QuanLyThuVien\GUI_QuanLy";
+        public string pathReport = @"C:\\Users\\ASUS\\TeamProject-CSharp\\QuanLyThuVien\\GUI_QuanLy\\";
         /*
          * PHẦN XỬ LÝ GIAO DIỆN FORM
          */
@@ -1541,12 +1541,12 @@ namespace GUI_QuanLy
                 BUS_TaiLieu busTL = new BUS_TaiLieu();
                 if (busTL.XoaChitietTaiLieu(matailieu))
                 {
-                    MessageBox.Show("Xóa Tài Liệu Thành Công!!!");
+                    MessageBox.Show("Xóa tài liệu thành công!!!");
                     dgvSearchTaiLieu.Rows.RemoveAt(rowindex);
                 }
                 else
                 {
-                    MessageBox.Show("Xóa Tài Liệu Không Thành Công!!!");
+                    MessageBox.Show("Xóa tài liệu không thành công!!!");
                 }
                 // load lại danh sách tài liều sau khi xóa
                 btnXemAllTaiLieu_Click(sender, e);
@@ -1765,7 +1765,7 @@ namespace GUI_QuanLy
 
                 if (busTL.XoaTaiLieuYeuCauMoi(tenTaiLieuYeuCau) == true)
                 {
-                    MessageBox.Show("Xóa Tài Liệu Yêu Cầu Thành Công!!!");
+                    MessageBox.Show("Xóa tài liệu yêu cầu thành công!!!");
                     dgvYeuCauTaiLieu.DataSource = busTL.XemTatCaTaiLieuYeuCauMoi();
                     dgvYeuCauTaiLieu.Columns[0].HeaderText = "STT";
                     dgvYeuCauTaiLieu.Columns[0].Width = 40;
@@ -1775,7 +1775,7 @@ namespace GUI_QuanLy
                 }
                 else
                 {
-                    MessageBox.Show("Xóa Tài Liệu Yêu Cầu Không Thành Công!!!");
+                    MessageBox.Show("Xóa tài liệu yêu cầu không thành công!!!");
                 }
             }
         }
