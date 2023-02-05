@@ -95,9 +95,7 @@
             this.columnHeader8 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.btnQuanTriAdmin = new System.Windows.Forms.Button();
-            this.btnBaoCaoThongKe = new System.Windows.Forms.Button();
             this.btnDocGia = new System.Windows.Forms.Button();
-            this.label2 = new System.Windows.Forms.Label();
             this.btnQuanLyPhieu = new System.Windows.Forms.Button();
             this.btnPanelSach = new System.Windows.Forms.Button();
             this.panelReport = new System.Windows.Forms.Panel();
@@ -1177,9 +1175,7 @@
             // 
             this.groupBox2.BackColor = System.Drawing.SystemColors.Control;
             this.groupBox2.Controls.Add(this.btnQuanTriAdmin);
-            this.groupBox2.Controls.Add(this.btnBaoCaoThongKe);
             this.groupBox2.Controls.Add(this.btnDocGia);
-            this.groupBox2.Controls.Add(this.label2);
             this.groupBox2.Controls.Add(this.btnQuanLyPhieu);
             this.groupBox2.Controls.Add(this.btnPanelSach);
             this.groupBox2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -1194,114 +1190,83 @@
             // 
             // btnQuanTriAdmin
             // 
-            this.btnQuanTriAdmin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(130)))), ((int)(((byte)(100)))));
+            this.btnQuanTriAdmin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(23)))), ((int)(((byte)(39)))));
             this.btnQuanTriAdmin.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnQuanTriAdmin.FlatAppearance.BorderSize = 0;
             this.btnQuanTriAdmin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnQuanTriAdmin.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnQuanTriAdmin.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnQuanTriAdmin.Image = ((System.Drawing.Image)(resources.GetObject("btnQuanTriAdmin.Image")));
-            this.btnQuanTriAdmin.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnQuanTriAdmin.Location = new System.Drawing.Point(43, 434);
+            this.btnQuanTriAdmin.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnQuanTriAdmin.Location = new System.Drawing.Point(0, 174);
             this.btnQuanTriAdmin.Margin = new System.Windows.Forms.Padding(4);
             this.btnQuanTriAdmin.Name = "btnQuanTriAdmin";
-            this.btnQuanTriAdmin.Size = new System.Drawing.Size(193, 91);
+            this.btnQuanTriAdmin.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.btnQuanTriAdmin.Size = new System.Drawing.Size(267, 55);
             this.btnQuanTriAdmin.TabIndex = 17;
             this.btnQuanTriAdmin.Text = "Quản trị Admin";
-            this.btnQuanTriAdmin.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnQuanTriAdmin.UseVisualStyleBackColor = false;
             this.btnQuanTriAdmin.Visible = false;
             this.btnQuanTriAdmin.Click += new System.EventHandler(this.btnQuanTriAdmin_Click);
             // 
-            // btnBaoCaoThongKe
-            // 
-            this.btnBaoCaoThongKe.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(97)))), ((int)(((byte)(238)))));
-            this.btnBaoCaoThongKe.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnBaoCaoThongKe.FlatAppearance.BorderSize = 0;
-            this.btnBaoCaoThongKe.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnBaoCaoThongKe.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnBaoCaoThongKe.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnBaoCaoThongKe.Image = ((System.Drawing.Image)(resources.GetObject("btnBaoCaoThongKe.Image")));
-            this.btnBaoCaoThongKe.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnBaoCaoThongKe.Location = new System.Drawing.Point(43, 343);
-            this.btnBaoCaoThongKe.Margin = new System.Windows.Forms.Padding(4);
-            this.btnBaoCaoThongKe.Name = "btnBaoCaoThongKe";
-            this.btnBaoCaoThongKe.Size = new System.Drawing.Size(193, 91);
-            this.btnBaoCaoThongKe.TabIndex = 16;
-            this.btnBaoCaoThongKe.Text = "Thống Kê";
-            this.btnBaoCaoThongKe.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnBaoCaoThongKe.UseVisualStyleBackColor = false;
-            this.btnBaoCaoThongKe.Click += new System.EventHandler(this.btnBaoCaoThongKe_Click);
-            // 
             // btnDocGia
             // 
-            this.btnDocGia.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(184)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.btnDocGia.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(23)))), ((int)(((byte)(39)))));
             this.btnDocGia.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnDocGia.FlatAppearance.BorderSize = 0;
             this.btnDocGia.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnDocGia.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDocGia.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnDocGia.Image = ((System.Drawing.Image)(resources.GetObject("btnDocGia.Image")));
-            this.btnDocGia.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnDocGia.Location = new System.Drawing.Point(43, 161);
+            this.btnDocGia.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnDocGia.Location = new System.Drawing.Point(-3, 62);
             this.btnDocGia.Margin = new System.Windows.Forms.Padding(4);
             this.btnDocGia.Name = "btnDocGia";
-            this.btnDocGia.Size = new System.Drawing.Size(193, 91);
+            this.btnDocGia.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.btnDocGia.Size = new System.Drawing.Size(270, 53);
             this.btnDocGia.TabIndex = 14;
             this.btnDocGia.Text = "Độc giả";
-            this.btnDocGia.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnDocGia.UseVisualStyleBackColor = false;
             this.btnDocGia.Click += new System.EventHandler(this.btnDocGia_Click);
             // 
-            // label2
-            // 
-            this.label2.Font = new System.Drawing.Font("Segoe UI", 13.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label2.Location = new System.Drawing.Point(53, 22);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(183, 28);
-            this.label2.TabIndex = 13;
-            this.label2.Text = "Danh Mục";
-            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
             // btnQuanLyPhieu
             // 
-            this.btnQuanLyPhieu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(89)))), ((int)(((byte)(122)))));
+            this.btnQuanLyPhieu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(23)))), ((int)(((byte)(39)))));
+            this.btnQuanLyPhieu.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnQuanLyPhieu.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnQuanLyPhieu.FlatAppearance.BorderSize = 0;
             this.btnQuanLyPhieu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnQuanLyPhieu.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnQuanLyPhieu.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnQuanLyPhieu.Image = ((System.Drawing.Image)(resources.GetObject("btnQuanLyPhieu.Image")));
-            this.btnQuanLyPhieu.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnQuanLyPhieu.Location = new System.Drawing.Point(43, 252);
+            this.btnQuanLyPhieu.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnQuanLyPhieu.Location = new System.Drawing.Point(0, 115);
             this.btnQuanLyPhieu.Margin = new System.Windows.Forms.Padding(4);
             this.btnQuanLyPhieu.Name = "btnQuanLyPhieu";
-            this.btnQuanLyPhieu.Size = new System.Drawing.Size(193, 91);
+            this.btnQuanLyPhieu.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.btnQuanLyPhieu.Size = new System.Drawing.Size(267, 59);
             this.btnQuanLyPhieu.TabIndex = 11;
             this.btnQuanLyPhieu.Text = "Quản lý phiếu";
-            this.btnQuanLyPhieu.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnQuanLyPhieu.UseVisualStyleBackColor = false;
             this.btnQuanLyPhieu.Click += new System.EventHandler(this.btnThongKe_Click);
             // 
             // btnPanelSach
             // 
-            this.btnPanelSach.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(37)))), ((int)(((byte)(133)))));
+            this.btnPanelSach.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(23)))), ((int)(((byte)(39)))));
             this.btnPanelSach.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnPanelSach.FlatAppearance.BorderSize = 0;
             this.btnPanelSach.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnPanelSach.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPanelSach.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnPanelSach.Image = ((System.Drawing.Image)(resources.GetObject("btnPanelSach.Image")));
-            this.btnPanelSach.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnPanelSach.Location = new System.Drawing.Point(43, 70);
+            this.btnPanelSach.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnPanelSach.Location = new System.Drawing.Point(0, 11);
             this.btnPanelSach.Margin = new System.Windows.Forms.Padding(4);
             this.btnPanelSach.Name = "btnPanelSach";
-            this.btnPanelSach.Size = new System.Drawing.Size(193, 91);
+            this.btnPanelSach.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.btnPanelSach.Size = new System.Drawing.Size(267, 52);
             this.btnPanelSach.TabIndex = 8;
             this.btnPanelSach.Text = "Quản lý sách";
-            this.btnPanelSach.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnPanelSach.UseVisualStyleBackColor = false;
             this.btnPanelSach.Click += new System.EventHandler(this.btnPanelSach_Click);
             // 
@@ -4314,7 +4279,6 @@
         private System.Windows.Forms.ColumnHeader columnHeader6;
         private System.Windows.Forms.ColumnHeader columnHeader7;
         private System.Windows.Forms.ColumnHeader columnHeader8;
-        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Panel panelDocGia;
         private System.Windows.Forms.ImageList imageList1;
         private System.Windows.Forms.ImageList imageList2;
@@ -4497,7 +4461,6 @@
         private System.Windows.Forms.Label lbMaTaiLieuPhieuMuon;
         private System.Windows.Forms.Label lbMaDocGiaPhieuMuon;
         private System.Windows.Forms.Label lbMaDocGia;
-        private System.Windows.Forms.Button btnBaoCaoThongKe;
         private System.Windows.Forms.Button btnSaveReport;
         private System.Windows.Forms.Button btnReport_TongSoDocGia;
         private System.Windows.Forms.ComboBox cbxMaPMcuaPP;
