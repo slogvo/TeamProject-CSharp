@@ -41,7 +41,6 @@ namespace GUI_QuanLy
             this.StartPosition = FormStartPosition.CenterScreen;
             setVisiblePannel();
             Add_IconTab();
-
         }
         private void tab_MouseClick(object sender, MouseEventArgs e)
         {
@@ -755,7 +754,7 @@ namespace GUI_QuanLy
             string select = cbxDinhDanh.GetItemText(this.cbxDinhDanh.SelectedItem);
             if ((rdMaDGSearch.Checked == false && rdMaDinhDanhSearch.Checked == false && rdHoTenSearch.Checked == false) || (rdMaDinhDanhSearch.Checked == true && select == "") || (txtSearchDG.Text == ""))
             {
-                MessageBox.Show("Lỗi Rồi Bạn Êi :( \nTìm Kiếm Gì Thì Nhớ Điền Đầy Đủ Nha");
+                MessageBox.Show("Lỗi! \nCần nhập đầy đủ thông tin cần tìm kiếm");
                 return;
             }
             else

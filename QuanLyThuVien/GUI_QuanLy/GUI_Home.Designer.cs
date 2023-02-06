@@ -476,7 +476,7 @@
             this.tbcQuanLiSach.Controls.Add(this.tabPage1);
             this.tbcQuanLiSach.Controls.Add(this.tabPage8);
             this.tbcQuanLiSach.Controls.Add(this.tabPage2);
-            this.tbcQuanLiSach.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.tbcQuanLiSach.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.tbcQuanLiSach.ItemSize = new System.Drawing.Size(110, 28);
             this.tbcQuanLiSach.Location = new System.Drawing.Point(0, 0);
             this.tbcQuanLiSach.Margin = new System.Windows.Forms.Padding(4);
@@ -527,7 +527,7 @@
             // 
             // cbbCTLoaiTL
             // 
-            this.cbbCTLoaiTL.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.cbbCTLoaiTL.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.cbbCTLoaiTL.FormattingEnabled = true;
             this.cbbCTLoaiTL.Location = new System.Drawing.Point(753, 182);
             this.cbbCTLoaiTL.Margin = new System.Windows.Forms.Padding(4);
@@ -656,7 +656,7 @@
             // 
             // btnXemTheoLoai
             // 
-            this.btnXemTheoLoai.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(72)))), ((int)(((byte)(210)))), ((int)(((byte)(148)))));
+            this.btnXemTheoLoai.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(23)))), ((int)(((byte)(39)))));
             this.btnXemTheoLoai.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnXemTheoLoai.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnXemTheoLoai.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
@@ -935,7 +935,7 @@
             // 
             // btnThemTaiLieu
             // 
-            this.btnThemTaiLieu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(99)))), ((int)(((byte)(25)))));
+            this.btnThemTaiLieu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(23)))), ((int)(((byte)(39)))));
             this.btnThemTaiLieu.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnThemTaiLieu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnThemTaiLieu.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -1085,7 +1085,7 @@
             // 
             // btnYeuCauTaiLieuMoi
             // 
-            this.btnYeuCauTaiLieuMoi.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(99)))), ((int)(((byte)(25)))));
+            this.btnYeuCauTaiLieuMoi.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(23)))), ((int)(((byte)(39)))));
             this.btnYeuCauTaiLieuMoi.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnYeuCauTaiLieuMoi.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnYeuCauTaiLieuMoi.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -1425,7 +1425,7 @@
             this.tabTimKiemPhieuMuon.Controls.Add(this.rdMaDG_PhieuMuon);
             this.tabTimKiemPhieuMuon.Controls.Add(this.txtSearchPM);
             this.tabTimKiemPhieuMuon.Controls.Add(this.label47);
-            this.tabTimKiemPhieuMuon.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tabTimKiemPhieuMuon.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tabTimKiemPhieuMuon.Location = new System.Drawing.Point(4, 32);
             this.tabTimKiemPhieuMuon.Margin = new System.Windows.Forms.Padding(4);
             this.tabTimKiemPhieuMuon.Name = "tabTimKiemPhieuMuon";
@@ -1707,7 +1707,7 @@
             // 
             // btnAddMTLVaoList
             // 
-            this.btnAddMTLVaoList.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(141)))), ((int)(((byte)(172)))));
+            this.btnAddMTLVaoList.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(23)))), ((int)(((byte)(39)))));
             this.btnAddMTLVaoList.FlatAppearance.BorderSize = 0;
             this.btnAddMTLVaoList.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAddMTLVaoList.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -1736,7 +1736,7 @@
             // 
             this.cbxMaTLPM.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
             this.cbxMaTLPM.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.cbxMaTLPM.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbxMaTLPM.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbxMaTLPM.FormattingEnabled = true;
             this.cbxMaTLPM.Location = new System.Drawing.Point(240, 113);
             this.cbxMaTLPM.Margin = new System.Windows.Forms.Padding(4);
@@ -1771,7 +1771,7 @@
             // 
             this.cbxMaDGPM.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
             this.cbxMaDGPM.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.cbxMaDGPM.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbxMaDGPM.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbxMaDGPM.FormattingEnabled = true;
             this.cbxMaDGPM.Location = new System.Drawing.Point(240, 39);
             this.cbxMaDGPM.Margin = new System.Windows.Forms.Padding(4);
@@ -1866,7 +1866,7 @@
             this.tabPage_TimkiemPhieuTra.Controls.Add(this.rdMaDG_PhieuTra);
             this.tabPage_TimkiemPhieuTra.Controls.Add(this.txtSearchPT);
             this.tabPage_TimkiemPhieuTra.Controls.Add(this.label67);
-            this.tabPage_TimkiemPhieuTra.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tabPage_TimkiemPhieuTra.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tabPage_TimkiemPhieuTra.Location = new System.Drawing.Point(4, 29);
             this.tabPage_TimkiemPhieuTra.Margin = new System.Windows.Forms.Padding(4);
             this.tabPage_TimkiemPhieuTra.Name = "tabPage_TimkiemPhieuTra";
@@ -2121,7 +2121,7 @@
             // 
             this.cbxSachPT.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
             this.cbxSachPT.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.cbxSachPT.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.cbxSachPT.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.cbxSachPT.FormattingEnabled = true;
             this.cbxSachPT.Location = new System.Drawing.Point(276, 91);
             this.cbxSachPT.Margin = new System.Windows.Forms.Padding(4);
@@ -2168,7 +2168,7 @@
             // 
             this.cbxMaPMCuaPT.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
             this.cbxMaPMCuaPT.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.cbxMaPMCuaPT.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.cbxMaPMCuaPT.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.cbxMaPMCuaPT.FormattingEnabled = true;
             this.cbxMaPMCuaPT.Location = new System.Drawing.Point(275, 44);
             this.cbxMaPMCuaPT.Margin = new System.Windows.Forms.Padding(4);
@@ -2216,7 +2216,7 @@
             // button18
             // 
             this.button18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.button18.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.button18.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.button18.ForeColor = System.Drawing.Color.White;
             this.button18.Location = new System.Drawing.Point(148, 436);
             this.button18.Margin = new System.Windows.Forms.Padding(4);
@@ -2229,7 +2229,7 @@
             // button19
             // 
             this.button19.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.button19.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.button19.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.button19.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.button19.Location = new System.Drawing.Point(725, 434);
             this.button19.Margin = new System.Windows.Forms.Padding(4);
@@ -2242,7 +2242,7 @@
             // button23
             // 
             this.button23.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.button23.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.button23.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.button23.ForeColor = System.Drawing.Color.White;
             this.button23.Location = new System.Drawing.Point(425, 436);
             this.button23.Margin = new System.Windows.Forms.Padding(4);
@@ -2254,8 +2254,8 @@
             // 
             // button24
             // 
-            this.button24.BackColor = System.Drawing.Color.Purple;
-            this.button24.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.button24.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(23)))), ((int)(((byte)(39)))));
+            this.button24.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.button24.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button24.Location = new System.Drawing.Point(937, 89);
             this.button24.Margin = new System.Windows.Forms.Padding(4);
@@ -2268,7 +2268,7 @@
             // button25
             // 
             this.button25.BackColor = System.Drawing.Color.Green;
-            this.button25.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.button25.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.button25.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button25.Location = new System.Drawing.Point(884, 436);
             this.button25.Margin = new System.Windows.Forms.Padding(4);
@@ -2281,7 +2281,7 @@
             // button26
             // 
             this.button26.BackColor = System.Drawing.Color.Green;
-            this.button26.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.button26.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.button26.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button26.Location = new System.Drawing.Point(663, 436);
             this.button26.Margin = new System.Windows.Forms.Padding(4);
@@ -2294,7 +2294,7 @@
             // btnXoaPT
             // 
             this.btnXoaPT.BackColor = System.Drawing.Color.Green;
-            this.btnXoaPT.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.btnXoaPT.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.btnXoaPT.ForeColor = System.Drawing.Color.White;
             this.btnXoaPT.Location = new System.Drawing.Point(228, 436);
             this.btnXoaPT.Margin = new System.Windows.Forms.Padding(4);
@@ -2306,8 +2306,8 @@
             // 
             // btnXemChiTietPT
             // 
-            this.btnXemChiTietPT.BackColor = System.Drawing.Color.Green;
-            this.btnXemChiTietPT.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.btnXemChiTietPT.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(23)))), ((int)(((byte)(39)))));
+            this.btnXemChiTietPT.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.btnXemChiTietPT.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnXemChiTietPT.Location = new System.Drawing.Point(28, 436);
             this.btnXemChiTietPT.Margin = new System.Windows.Forms.Padding(4);
@@ -2330,7 +2330,7 @@
             // btnTimKiemPT
             // 
             this.btnTimKiemPT.BackColor = System.Drawing.Color.Purple;
-            this.btnTimKiemPT.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.btnTimKiemPT.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.btnTimKiemPT.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnTimKiemPT.Location = new System.Drawing.Point(739, 89);
             this.btnTimKiemPT.Margin = new System.Windows.Forms.Padding(4);
@@ -2397,7 +2397,7 @@
             // label49
             // 
             this.label49.AutoSize = true;
-            this.label49.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.label49.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.label49.Location = new System.Drawing.Point(108, 62);
             this.label49.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label49.Name = "label49";
@@ -2420,7 +2420,7 @@
             this.tabPhieuPhat.Controls.Add(this.rdMDG_PP);
             this.tabPhieuPhat.Controls.Add(this.txtSearchMaPP);
             this.tabPhieuPhat.Controls.Add(this.label51);
-            this.tabPhieuPhat.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.tabPhieuPhat.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.tabPhieuPhat.Location = new System.Drawing.Point(4, 32);
             this.tabPhieuPhat.Margin = new System.Windows.Forms.Padding(4);
             this.tabPhieuPhat.Name = "tabPhieuPhat";
@@ -2599,7 +2599,7 @@
             this.tabPhieuNhacNho.Controls.Add(this.btnXoaPhieuNN);
             this.tabPhieuNhacNho.Controls.Add(this.dgvPhieuNhacNho);
             this.tabPhieuNhacNho.Controls.Add(this.btnThemPhieuNhacNho);
-            this.tabPhieuNhacNho.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.tabPhieuNhacNho.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.tabPhieuNhacNho.Location = new System.Drawing.Point(4, 32);
             this.tabPhieuNhacNho.Margin = new System.Windows.Forms.Padding(4);
             this.tabPhieuNhacNho.Name = "tabPhieuNhacNho";
@@ -2662,7 +2662,7 @@
             // 
             // cbxmaDocGiaNN
             // 
-            this.cbxmaDocGiaNN.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.cbxmaDocGiaNN.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.cbxmaDocGiaNN.FormattingEnabled = true;
             this.cbxmaDocGiaNN.Location = new System.Drawing.Point(759, 473);
             this.cbxmaDocGiaNN.Margin = new System.Windows.Forms.Padding(4);
@@ -2732,7 +2732,7 @@
             // panelQuanTriAdmin
             // 
             this.panelQuanTriAdmin.Controls.Add(this.tbcQuanTriAdmin);
-            this.panelQuanTriAdmin.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.panelQuanTriAdmin.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.panelQuanTriAdmin.Location = new System.Drawing.Point(1336, 38);
             this.panelQuanTriAdmin.Margin = new System.Windows.Forms.Padding(4);
             this.panelQuanTriAdmin.Name = "panelQuanTriAdmin";
@@ -2759,7 +2759,7 @@
             this.tbcAdmin_DocGia.BackColor = System.Drawing.SystemColors.Control;
             this.tbcAdmin_DocGia.Controls.Add(this.dgvLoaiDocGia);
             this.tbcAdmin_DocGia.Controls.Add(this.groupBox6);
-            this.tbcAdmin_DocGia.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.tbcAdmin_DocGia.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.tbcAdmin_DocGia.Location = new System.Drawing.Point(4, 32);
             this.tbcAdmin_DocGia.Margin = new System.Windows.Forms.Padding(4);
             this.tbcAdmin_DocGia.Name = "tbcAdmin_DocGia";
@@ -3175,7 +3175,7 @@
             // 
             this.tbcDocGia.Controls.Add(this.tabPage7);
             this.tbcDocGia.Controls.Add(this.tabThemdg);
-            this.tbcDocGia.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.tbcDocGia.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.tbcDocGia.ImageList = this.imageList1;
             this.tbcDocGia.ItemSize = new System.Drawing.Size(110, 28);
             this.tbcDocGia.Location = new System.Drawing.Point(0, 1);
@@ -3231,7 +3231,7 @@
             this.tabPage7.Controls.Add(this.rdMaDGSearch);
             this.tabPage7.Controls.Add(this.txtSearchDG);
             this.tabPage7.Controls.Add(this.label30);
-            this.tabPage7.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tabPage7.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tabPage7.Location = new System.Drawing.Point(4, 32);
             this.tabPage7.Margin = new System.Windows.Forms.Padding(4);
             this.tabPage7.Name = "tabPage7";
@@ -3534,7 +3534,7 @@
             // 
             // btnXemAllDocGia
             // 
-            this.btnXemAllDocGia.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btnXemAllDocGia.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(23)))), ((int)(((byte)(39)))));
             this.btnXemAllDocGia.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnXemAllDocGia.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnXemAllDocGia.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
@@ -3609,7 +3609,7 @@
             // 
             // btnXemChiTiet
             // 
-            this.btnXemChiTiet.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(58)))), ((int)(((byte)(43)))), ((int)(((byte)(72)))));
+            this.btnXemChiTiet.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(23)))), ((int)(((byte)(39)))));
             this.btnXemChiTiet.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnXemChiTiet.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnXemChiTiet.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
@@ -3796,7 +3796,7 @@
             // 
             // btnDangKyDocGia
             // 
-            this.btnDangKyDocGia.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(58)))), ((int)(((byte)(43)))), ((int)(((byte)(72)))));
+            this.btnDangKyDocGia.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(23)))), ((int)(((byte)(39)))));
             this.btnDangKyDocGia.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnDangKyDocGia.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDangKyDocGia.ForeColor = System.Drawing.SystemColors.ButtonFace;
@@ -4103,7 +4103,7 @@
             // panelDocGia
             // 
             this.panelDocGia.Controls.Add(this.tbcDocGia);
-            this.panelDocGia.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.panelDocGia.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.panelDocGia.Location = new System.Drawing.Point(1204, 60);
             this.panelDocGia.Margin = new System.Windows.Forms.Padding(4);
             this.panelDocGia.Name = "panelDocGia";
