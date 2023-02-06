@@ -641,7 +641,7 @@
             // 
             // btnYeuCauTL
             // 
-            this.btnYeuCauTL.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(174)))), ((int)(((byte)(96)))));
+            this.btnYeuCauTL.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(23)))), ((int)(((byte)(39)))));
             this.btnYeuCauTL.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnYeuCauTL.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnYeuCauTL.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
@@ -682,7 +682,7 @@
             // 
             // btnChinhSuaTL
             // 
-            this.btnChinhSuaTL.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(139)))), ((int)(((byte)(25)))));
+            this.btnChinhSuaTL.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(23)))), ((int)(((byte)(39)))));
             this.btnChinhSuaTL.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnChinhSuaTL.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnChinhSuaTL.ForeColor = System.Drawing.Color.White;
@@ -697,7 +697,7 @@
             // 
             // btnHuyTL
             // 
-            this.btnHuyTL.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(139)))), ((int)(((byte)(25)))));
+            this.btnHuyTL.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(23)))), ((int)(((byte)(39)))));
             this.btnHuyTL.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnHuyTL.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnHuyTL.ForeColor = System.Drawing.SystemColors.ButtonFace;
@@ -712,7 +712,7 @@
             // 
             // btnLuuTL
             // 
-            this.btnLuuTL.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(139)))), ((int)(((byte)(25)))));
+            this.btnLuuTL.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(23)))), ((int)(((byte)(39)))));
             this.btnLuuTL.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnLuuTL.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLuuTL.ForeColor = System.Drawing.Color.White;
@@ -742,7 +742,7 @@
             // 
             // btnLapPhieuMuonTL
             // 
-            this.btnLapPhieuMuonTL.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(174)))), ((int)(((byte)(96)))));
+            this.btnLapPhieuMuonTL.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(23)))), ((int)(((byte)(39)))));
             this.btnLapPhieuMuonTL.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnLapPhieuMuonTL.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLapPhieuMuonTL.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
@@ -757,7 +757,7 @@
             // 
             // btnXoaTL
             // 
-            this.btnXoaTL.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(174)))), ((int)(((byte)(96)))));
+            this.btnXoaTL.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(63)))), ((int)(((byte)(49)))));
             this.btnXoaTL.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnXoaTL.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnXoaTL.ForeColor = System.Drawing.Color.White;
@@ -772,7 +772,7 @@
             // 
             // btnXemChiTietTL
             // 
-            this.btnXemChiTietTL.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(174)))), ((int)(((byte)(96)))));
+            this.btnXemChiTietTL.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(23)))), ((int)(((byte)(39)))));
             this.btnXemChiTietTL.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnXemChiTietTL.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnXemChiTietTL.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
@@ -1490,7 +1490,7 @@
             // 
             // btnXemTatcaPhieuMuon
             // 
-            this.btnXemTatcaPhieuMuon.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btnXemTatcaPhieuMuon.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(23)))), ((int)(((byte)(39)))));
             this.btnXemTatcaPhieuMuon.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnXemTatcaPhieuMuon.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnXemTatcaPhieuMuon.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
@@ -1520,7 +1520,7 @@
             // 
             // btnXemChiTiet_PhieuMuon
             // 
-            this.btnXemChiTiet_PhieuMuon.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(72)))), ((int)(((byte)(129)))));
+            this.btnXemChiTiet_PhieuMuon.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(23)))), ((int)(((byte)(39)))));
             this.btnXemChiTiet_PhieuMuon.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnXemChiTiet_PhieuMuon.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnXemChiTiet_PhieuMuon.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
@@ -1935,7 +1935,7 @@
             // 
             // btnXemTatCaPhieuTra
             // 
-            this.btnXemTatCaPhieuTra.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btnXemTatCaPhieuTra.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(23)))), ((int)(((byte)(39)))));
             this.btnXemTatCaPhieuTra.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnXemTatCaPhieuTra.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnXemTatCaPhieuTra.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
@@ -1965,7 +1965,7 @@
             // 
             // btnXemChiTietPhieuTra
             // 
-            this.btnXemChiTietPhieuTra.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(72)))), ((int)(((byte)(129)))));
+            this.btnXemChiTietPhieuTra.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(23)))), ((int)(((byte)(39)))));
             this.btnXemChiTietPhieuTra.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnXemChiTietPhieuTra.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnXemChiTietPhieuTra.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
