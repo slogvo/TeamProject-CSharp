@@ -424,4 +424,3 @@ C:\Users\ASUS\TeamProject-CSharp\QuanLyThuVien\GUI_QuanLy\obj\Debug\GUI_QuanLy.c
 C:\Users\ASUS\TeamProject-CSharp\QuanLyThuVien\GUI_QuanLy\obj\Debug\GUI_QuanLy.csproj.CopyComplete
 C:\Users\ASUS\TeamProject-CSharp\QuanLyThuVien\GUI_QuanLy\obj\Debug\GUI_QuanLy.exe
 C:\Users\ASUS\TeamProject-CSharp\QuanLyThuVien\GUI_QuanLy\obj\Debug\GUI_QuanLy.pdb
-C:\Users\ASUS\TeamProject-CSharp\QuanLyThuVien\GUI_QuanLy\bin\Debug\Microsoft.ReportViewer.WinForms.dll

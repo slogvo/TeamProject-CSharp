@@ -146,14 +146,3 @@ C:\Users\ASUS\ltudC-sharp\QuanLyThuVien\BUS_QuanLy\obj\Debug\BUS_QuanLy.csproj.C
 C:\Users\ASUS\ltudC-sharp\QuanLyThuVien\BUS_QuanLy\obj\Debug\BUS_QuanLy.csproj.CopyComplete
 C:\Users\ASUS\ltudC-sharp\QuanLyThuVien\BUS_QuanLy\obj\Debug\BUS_QuanLy.dll
 C:\Users\ASUS\ltudC-sharp\QuanLyThuVien\BUS_QuanLy\obj\Debug\BUS_QuanLy.pdb
-C:\Users\ASUS\TeamProject-CSharp\QuanLyThuVien\BUS_QuanLy\bin\Debug\BUS_QuanLy.dll
-C:\Users\ASUS\TeamProject-CSharp\QuanLyThuVien\BUS_QuanLy\bin\Debug\BUS_QuanLy.pdb
-C:\Users\ASUS\TeamProject-CSharp\QuanLyThuVien\BUS_QuanLy\bin\Debug\DAL_QuanLy.dll
-C:\Users\ASUS\TeamProject-CSharp\QuanLyThuVien\BUS_QuanLy\bin\Debug\DTO_QuanLy.dll
-C:\Users\ASUS\TeamProject-CSharp\QuanLyThuVien\BUS_QuanLy\bin\Debug\DAL_QuanLy.pdb
-C:\Users\ASUS\TeamProject-CSharp\QuanLyThuVien\BUS_QuanLy\bin\Debug\DTO_QuanLy.pdb
-C:\Users\ASUS\TeamProject-CSharp\QuanLyThuVien\BUS_QuanLy\obj\Debug\BUS_QuanLy.csproj.AssemblyReference.cache
-C:\Users\ASUS\TeamProject-CSharp\QuanLyThuVien\BUS_QuanLy\obj\Debug\BUS_QuanLy.csproj.CoreCompileInputs.cache
-C:\Users\ASUS\TeamProject-CSharp\QuanLyThuVien\BUS_QuanLy\obj\Debug\BUS_QuanLy.csproj.CopyComplete
-C:\Users\ASUS\TeamProject-CSharp\QuanLyThuVien\BUS_QuanLy\obj\Debug\BUS_QuanLy.dll
-C:\Users\ASUS\TeamProject-CSharp\QuanLyThuVien\BUS_QuanLy\obj\Debug\BUS_QuanLy.pdb

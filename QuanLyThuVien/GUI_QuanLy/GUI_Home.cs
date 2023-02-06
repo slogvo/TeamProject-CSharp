@@ -28,7 +28,7 @@ namespace GUI_QuanLy
         BUS_NhanVien busUP = new BUS_NhanVien();
         BUS_TaiLieu TL = new BUS_TaiLieu();
 
-        public string pathReport = @"C:\\Users\\ASUS\\TeamProject-CSharp\\QuanLyThuVien\\GUI_QuanLy\\";
+        public string pathReport = @"C:\\Users\\Windows 8.1 Ultimate\\Desktop\\QLTV_Offical\\QuanLyThuVien\\GUI_QuanLy\\";
         /*
          * PHẦN XỬ LÝ GIAO DIỆN FORM
          */
@@ -269,7 +269,7 @@ namespace GUI_QuanLy
 
         private void btnLogout_Click(object sender, EventArgs e)
         {
-            if (MessageBox.Show(string.Format("Xác nhận đăng xuất tài khoản "+ userName.Text.ToUpper()), "Xác nhận ", MessageBoxButtons.YesNo) == DialogResult.Yes)
+            if (MessageBox.Show(string.Format("Xác nhận Đăng Xuất Tài Khoản "+ userName.Text.ToUpper()), "Xác nhận ", MessageBoxButtons.YesNo) == DialogResult.Yes)
             {
                 GUI_DangNhap f_DN = new GUI_DangNhap();
                 f_DN.Show();
@@ -1129,12 +1129,12 @@ namespace GUI_QuanLy
 
                 DTO_DocGia DTO = new DTO_DocGia(txtCTMaDG.Text, tendocgia, ngaysinh, diachi, sdt, email, cmnd, mssv, mscb, loai);
                 busDocGia.CapNhatDocGia(DTO);
-                MessageBox.Show("Cập nhật Độc Giả thành công!!!");
+                MessageBox.Show("Cập Nhật Độc Giả Thành Công!!!");
                 btnHuy.Text = "Thoát";
             }
             catch (SqlException ex)
             {
-                MessageBox.Show("Cập nhật thất bại!");
+                MessageBox.Show("Cập Nhật Thất Bại :(");
                 return;
                 throw ex;
             }
@@ -1174,9 +1174,9 @@ namespace GUI_QuanLy
             if (MessageBox.Show(string.Format("Xác nhận xóa độc giả {0}", madocgia), "Xác nhận xóa", MessageBoxButtons.YesNo) == DialogResult.Yes)
             {
                 if (busDocGia.XoaDocGia(madocgia))
-                    MessageBox.Show("Xóa Độc Giả thành công!!!");
+                    MessageBox.Show("Xóa Độc Giả Thành Công!!!");
                 else
-                    MessageBox.Show("Không thể xóa Độc Giả này!!!");
+                    MessageBox.Show("Không thể Xóa Độc Giả Này!!!");
             }
             btnXemAllDocGia_Click(sender, e);
 
@@ -1189,9 +1189,9 @@ namespace GUI_QuanLy
             BUS_DocGia busDG = new BUS_DocGia();
             if (busDG.GetNgayHetHan(maDocGia) == false)
             {
-                if (MessageBox.Show(string.Format("Vui lòng đóng phí để có thể mượn tài liệu !"), "Bạn chưa đóng phí ! ", MessageBoxButtons.YesNo) == DialogResult.Yes)
+                if (MessageBox.Show(string.Format("Vui Lòng Đóng Phí Để Có Thể Mượn Tài Liệu !"), "Bạn Chưa Đóng Phí ! ", MessageBoxButtons.YesNo) == DialogResult.Yes)
                 {
-                    MessageBox.Show(string.Format("Đóng lệ phí thành công !"));
+                    MessageBox.Show(string.Format("Đóng Lệ Phí Thành Công !"));
                     busDG.UpdateNgayHetHan(maDocGia, loaiDG);
                 }
                 else
@@ -1331,7 +1331,7 @@ namespace GUI_QuanLy
                 string matl = txtSearchTaiLieu.Text;
                 if (matl == "")
                 {
-                    MessageBox.Show(string.Format("Vui lòng nhập Mã Tài Liệu"));
+                    MessageBox.Show(string.Format("Vui lòng Nhập Mã Tài Liệu"));
                     return;
                 }
 
@@ -1356,7 +1356,7 @@ namespace GUI_QuanLy
                 string tentl = txtSearchTaiLieu.Text;
                 if (tentl == "")
                 {
-                    MessageBox.Show(string.Format("Vui lòng nhập Tên Tài Liệu"));
+                    MessageBox.Show(string.Format("Vui lòng Nhập Tên Tài Liệu"));
                     return;
                 }
                 DAL_TaiLieu a = new DAL_TaiLieu();
@@ -1386,7 +1386,7 @@ namespace GUI_QuanLy
             }
             if (rdTimTLNangCao.Checked == false && rdTimTLCoBan.Checked == false)
             {
-                MessageBox.Show(string.Format("Vui lòng chọn Giá trị tìm kiếm !"));
+                MessageBox.Show(string.Format("Vui lòng chọn Gía trị Tìm Kiếm !"));
                 return;
             }
         }
@@ -1420,12 +1420,12 @@ namespace GUI_QuanLy
                     tldb = "False";
                 if (tentailieu == "" || loaitailieu == "" || soluongtailieu == "")
                 {
-                    MessageBox.Show("Vui lòng điền đủ thông tin trước khi thêm Tài liệu !");
+                    MessageBox.Show("Vui lòng điền đủ thông tin trước khi Thêm Tài Liệu !");
                     return;
                 }
                 if (CheckNumber(soluongtailieu) == false)
                 {
-                    MessageBox.Show("Vui lòng nhập lại Số lượng !");
+                    MessageBox.Show("Vui lòng Nhập lại Số Lượng !");
                     return;
                 }
 
@@ -1433,7 +1433,7 @@ namespace GUI_QuanLy
                 {
                     DTO_TaiLieu dto = new DTO_TaiLieu(tentailieu, loaitailieu, soluongtailieu, tldb);
                     busTL.ThemTaiLieuMoi(dto);
-                    MessageBox.Show("Thêm tài liệu thành công!!!");
+                    MessageBox.Show("Thêm Tài Liệu Thành Công!!!");
                 }
 
             }
@@ -1541,12 +1541,12 @@ namespace GUI_QuanLy
                 BUS_TaiLieu busTL = new BUS_TaiLieu();
                 if (busTL.XoaChitietTaiLieu(matailieu))
                 {
-                    MessageBox.Show("Xóa tài liệu thành công!!!");
+                    MessageBox.Show("Xóa Tài Liệu Thành Công!!!");
                     dgvSearchTaiLieu.Rows.RemoveAt(rowindex);
                 }
                 else
                 {
-                    MessageBox.Show("Xóa tài liệu không thành công!!!");
+                    MessageBox.Show("Xóa Tài Liệu Không Thành Công!!!");
                 }
                 // load lại danh sách tài liều sau khi xóa
                 btnXemAllTaiLieu_Click(sender, e);
@@ -1765,7 +1765,7 @@ namespace GUI_QuanLy
 
                 if (busTL.XoaTaiLieuYeuCauMoi(tenTaiLieuYeuCau) == true)
                 {
-                    MessageBox.Show("Xóa tài liệu yêu cầu thành công!!!");
+                    MessageBox.Show("Xóa Tài Liệu Yêu Cầu Thành Công!!!");
                     dgvYeuCauTaiLieu.DataSource = busTL.XemTatCaTaiLieuYeuCauMoi();
                     dgvYeuCauTaiLieu.Columns[0].HeaderText = "STT";
                     dgvYeuCauTaiLieu.Columns[0].Width = 40;
@@ -1775,7 +1775,7 @@ namespace GUI_QuanLy
                 }
                 else
                 {
-                    MessageBox.Show("Xóa tài liệu yêu cầu không thành công!!!");
+                    MessageBox.Show("Xóa Tài Liệu Yêu Cầu Không Thành Công!!!");
                 }
             }
         }
@@ -2409,7 +2409,7 @@ namespace GUI_QuanLy
             }
             catch
             {
-                MessageBox.Show("Dữ liệu không tìm thấy !");
+                MessageBox.Show("Dữ Liệu Không Tìm Thấy !");
                 return;
             }
           
@@ -2428,6 +2428,7 @@ namespace GUI_QuanLy
             {
                 MessageBox.Show("Dữ Liệu Không Tìm Thấy !");
                 return;
+
             }
 
         }
@@ -2550,7 +2551,7 @@ namespace GUI_QuanLy
                 BUS_Phieu p = new BUS_Phieu();
                 p.ThemPhieuNhacNho(mdg);
                 
-                MessageBox.Show("Thêm phiếu nhắc nhở thành công !!!");
+                MessageBox.Show("Thêm Phiếu Nhắc Nhở Thành Công !!!");
                 btnXemTatCaPhieuNhacNho_Click(sender, e);
             }
             else MessageBox.Show("Lỗi, Nhập đúng mã độc giả !!!");
@@ -2572,7 +2573,7 @@ namespace GUI_QuanLy
                     btnXemTatCaPhieuNhacNho_Click(sender, e);
                 }                   
                 else
-                    MessageBox.Show("Chưa thể xóa phiếu này !");
+                    MessageBox.Show("Chưa Thể Xóa Phiếu Này !");
             }
            
         }
@@ -2586,7 +2587,7 @@ namespace GUI_QuanLy
         {
             if (txtSearchMaPP.Text.Trim() == "")
             {
-                MessageBox.Show("Vui lòng nhập thông tin tìm kiếm !");
+                MessageBox.Show("Vui lòng nhập Thông Tin Tìm Kiếm !");
                 return;
             }
             BUS_Phieu p = new BUS_Phieu();
@@ -2638,7 +2639,7 @@ namespace GUI_QuanLy
         {
             if (txtADMaLoai.Text == "" || txtADSoNM.Text == "" || txtADSSM.Text == "" || txtADTDG.Text == "" || txtADPTN.Text == "" || txtADTLDB.Text == "")
             {
-                MessageBox.Show("Không có dữ liệu vui lòng chọn trên danh sách !");
+                MessageBox.Show("Không có Dữ Liệu Vui lòng Chọn Trên Danh Sách !");
                 return;
             }
             string MaLoaiDG = txtADMaLoai.Text;
@@ -2650,7 +2651,7 @@ namespace GUI_QuanLy
           
             BUS_DocGia dg = new BUS_DocGia();
             dg.ADMIN_UD_LDG(MaLoaiDG, SoNgayMuonToiDa, SoSachMuonToiDa, TenLoaiDG, PhiThuongNien, TaiLieuDB);
-            MessageBox.Show("Cập nhật loại độc giả thành công");
+            MessageBox.Show("Cập Nhật Loại Độc Giả Thành Công");
             btnQuanTriAdmin_Click(sender, e);
         }
 
@@ -2658,7 +2659,7 @@ namespace GUI_QuanLy
         {
             if (txtADMaLoai.Text == "" || txtADSoNM.Text == "" || txtADSSM.Text == "" || txtADTDG.Text == "" || txtADPTN.Text == "" || txtADTLDB.Text == "")
             {
-                MessageBox.Show("Vui lòng điển đầy đủ thông Tin !");
+                MessageBox.Show("Vui lòng Điển đầy đủ Thông Tin !");
                 return;
             }
             string MaLoaiDG = txtADMaLoai.Text;
@@ -2670,7 +2671,7 @@ namespace GUI_QuanLy
           
             BUS_DocGia dg = new BUS_DocGia();
             dg.ADMIN_AD_LDG(MaLoaiDG, SoNgayMuonToiDa, SoSachMuonToiDa, TenLoaiDG, PhiThuongNien, TaiLieuDB);
-            MessageBox.Show("Thêm loại độc giả thành công");
+            MessageBox.Show("Thêm Loại Độc Giả Thành Công");
             btnQuanTriAdmin_Click(sender, e);
         }
 
