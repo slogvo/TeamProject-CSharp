@@ -28,7 +28,7 @@ namespace GUI_QuanLy
         BUS_NhanVien busUP = new BUS_NhanVien();
         BUS_TaiLieu TL = new BUS_TaiLieu();
 
-        public string pathReport = @"C:\\Users\\Windows 8.1 Ultimate\\Desktop\\QLTV_Offical\\QuanLyThuVien\\GUI_QuanLy\\";
+        public string pathReport = @"C:\Users\ASUS\TeamProject-CSharp\QuanLyThuVien\GUI_QuanLy\";
         /*
          * PHẦN XỬ LÝ GIAO DIỆN FORM
          */
@@ -2730,6 +2730,11 @@ namespace GUI_QuanLy
             txtCTMSSV_DG.Hide();
             lbCTMSCB_DG.Hide();
             txtCTMSCB_DG.Hide();
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
         }
 
         private void dgvNhanVien_Click(object sender, EventArgs e)

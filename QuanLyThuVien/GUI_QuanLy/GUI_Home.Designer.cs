@@ -656,11 +656,11 @@
             // 
             // btnXemTheoLoai
             // 
-            this.btnXemTheoLoai.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(40)))), ((int)(((byte)(0)))));
+            this.btnXemTheoLoai.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(72)))), ((int)(((byte)(210)))), ((int)(((byte)(148)))));
             this.btnXemTheoLoai.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnXemTheoLoai.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnXemTheoLoai.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnXemTheoLoai.Location = new System.Drawing.Point(823, 82);
+            this.btnXemTheoLoai.Location = new System.Drawing.Point(983, 88);
             this.btnXemTheoLoai.Margin = new System.Windows.Forms.Padding(4);
             this.btnXemTheoLoai.Name = "btnXemTheoLoai";
             this.btnXemTheoLoai.Size = new System.Drawing.Size(164, 41);
@@ -673,10 +673,10 @@
             // 
             this.cbxLoaiTaiLieu.Font = new System.Drawing.Font("Constantia", 10F);
             this.cbxLoaiTaiLieu.FormattingEnabled = true;
-            this.cbxLoaiTaiLieu.Location = new System.Drawing.Point(1016, 87);
+            this.cbxLoaiTaiLieu.Location = new System.Drawing.Point(739, 94);
             this.cbxLoaiTaiLieu.Margin = new System.Windows.Forms.Padding(4);
             this.cbxLoaiTaiLieu.Name = "cbxLoaiTaiLieu";
-            this.cbxLoaiTaiLieu.Size = new System.Drawing.Size(160, 29);
+            this.cbxLoaiTaiLieu.Size = new System.Drawing.Size(221, 29);
             this.cbxLoaiTaiLieu.TabIndex = 22;
             this.cbxLoaiTaiLieu.Text = "SÁCH";
             // 
@@ -727,11 +727,11 @@
             // 
             // btnXemAllTaiLieu
             // 
-            this.btnXemAllTaiLieu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btnXemAllTaiLieu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(23)))), ((int)(((byte)(39)))));
             this.btnXemAllTaiLieu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnXemAllTaiLieu.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnXemAllTaiLieu.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnXemAllTaiLieu.Location = new System.Drawing.Point(823, 25);
+            this.btnXemAllTaiLieu.Location = new System.Drawing.Point(983, 23);
             this.btnXemAllTaiLieu.Margin = new System.Windows.Forms.Padding(4);
             this.btnXemAllTaiLieu.Name = "btnXemAllTaiLieu";
             this.btnXemAllTaiLieu.Size = new System.Drawing.Size(164, 41);
@@ -808,9 +808,10 @@
             this.btnSearchTaiLieu.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnSearchTaiLieu.Image = ((System.Drawing.Image)(resources.GetObject("btnSearchTaiLieu.Image")));
             this.btnSearchTaiLieu.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSearchTaiLieu.Location = new System.Drawing.Point(565, 82);
+            this.btnSearchTaiLieu.Location = new System.Drawing.Point(800, 24);
             this.btnSearchTaiLieu.Margin = new System.Windows.Forms.Padding(4);
             this.btnSearchTaiLieu.Name = "btnSearchTaiLieu";
+            this.btnSearchTaiLieu.Padding = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.btnSearchTaiLieu.Size = new System.Drawing.Size(164, 41);
             this.btnSearchTaiLieu.TabIndex = 8;
             this.btnSearchTaiLieu.Text = "Tìm Kiếm";
@@ -822,35 +823,33 @@
             // 
             this.lblTenTaiLieu.AutoSize = true;
             this.lblTenTaiLieu.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTenTaiLieu.Location = new System.Drawing.Point(367, 25);
+            this.lblTenTaiLieu.Location = new System.Drawing.Point(454, 27);
             this.lblTenTaiLieu.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblTenTaiLieu.Name = "lblTenTaiLieu";
-            this.lblTenTaiLieu.Size = new System.Drawing.Size(109, 25);
+            this.lblTenTaiLieu.Size = new System.Drawing.Size(0, 25);
             this.lblTenTaiLieu.TabIndex = 6;
-            this.lblTenTaiLieu.Text = "Tên Tài Liệu";
             // 
             // lblMaTaiLieu
             // 
             this.lblMaTaiLieu.AutoSize = true;
             this.lblMaTaiLieu.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMaTaiLieu.Location = new System.Drawing.Point(364, 23);
+            this.lblMaTaiLieu.Location = new System.Drawing.Point(454, 25);
             this.lblMaTaiLieu.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblMaTaiLieu.Name = "lblMaTaiLieu";
-            this.lblMaTaiLieu.Size = new System.Drawing.Size(117, 28);
+            this.lblMaTaiLieu.Size = new System.Drawing.Size(0, 28);
             this.lblMaTaiLieu.TabIndex = 5;
-            this.lblMaTaiLieu.Text = "Mã Tài Liệu :";
             // 
             // rdTimTLNangCao
             // 
             this.rdTimTLNangCao.AutoSize = true;
             this.rdTimTLNangCao.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rdTimTLNangCao.Location = new System.Drawing.Point(187, 75);
+            this.rdTimTLNangCao.Location = new System.Drawing.Point(397, 30);
             this.rdTimTLNangCao.Margin = new System.Windows.Forms.Padding(4);
             this.rdTimTLNangCao.Name = "rdTimTLNangCao";
-            this.rdTimTLNangCao.Size = new System.Drawing.Size(153, 29);
+            this.rdTimTLNangCao.Size = new System.Drawing.Size(124, 29);
             this.rdTimTLNangCao.TabIndex = 3;
             this.rdTimTLNangCao.TabStop = true;
-            this.rdTimTLNangCao.Text = "Tìm Nâng Cao";
+            this.rdTimTLNangCao.Text = "Tên tài liệu";
             this.rdTimTLNangCao.UseVisualStyleBackColor = true;
             this.rdTimTLNangCao.CheckedChanged += new System.EventHandler(this.rdTimTLNangCao_CheckedChanged);
             // 
@@ -858,34 +857,36 @@
             // 
             this.rdTimTLCoBan.AutoSize = true;
             this.rdTimTLCoBan.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rdTimTLCoBan.Location = new System.Drawing.Point(187, 20);
+            this.rdTimTLCoBan.Location = new System.Drawing.Point(260, 30);
             this.rdTimTLCoBan.Margin = new System.Windows.Forms.Padding(4);
             this.rdTimTLCoBan.Name = "rdTimTLCoBan";
-            this.rdTimTLCoBan.Size = new System.Drawing.Size(129, 29);
+            this.rdTimTLCoBan.Size = new System.Drawing.Size(122, 29);
             this.rdTimTLCoBan.TabIndex = 2;
             this.rdTimTLCoBan.TabStop = true;
-            this.rdTimTLCoBan.Text = "Tìm Cơ Bản";
+            this.rdTimTLCoBan.Text = "Mã tài liệu";
             this.rdTimTLCoBan.UseVisualStyleBackColor = true;
             this.rdTimTLCoBan.CheckedChanged += new System.EventHandler(this.rdTimTLCoBan_CheckedChanged);
             // 
             // txtSearchTaiLieu
             // 
-            this.txtSearchTaiLieu.Location = new System.Drawing.Point(504, 25);
+            this.txtSearchTaiLieu.Location = new System.Drawing.Point(561, 29);
             this.txtSearchTaiLieu.Margin = new System.Windows.Forms.Padding(4);
+            this.txtSearchTaiLieu.Multiline = true;
             this.txtSearchTaiLieu.Name = "txtSearchTaiLieu";
-            this.txtSearchTaiLieu.Size = new System.Drawing.Size(301, 26);
+            this.txtSearchTaiLieu.Size = new System.Drawing.Size(202, 30);
             this.txtSearchTaiLieu.TabIndex = 1;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(20, 46);
+            this.label3.Location = new System.Drawing.Point(83, 29);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(146, 25);
             this.label3.TabIndex = 0;
             this.label3.Text = "Tìm Kiếm Theo :";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // tabPage8
             // 
@@ -4179,9 +4180,8 @@
             this.Controls.Add(this.panelQuanTriAdmin);
             this.Controls.Add(this.btnLogout);
             this.Controls.Add(this.pnThongKe);
-            this.Controls.Add(this.panelReport);
-            this.Controls.Add(this.panelDocGia);
             this.Controls.Add(this.panelQLSach);
+            this.Controls.Add(this.panelDocGia);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.userName);
