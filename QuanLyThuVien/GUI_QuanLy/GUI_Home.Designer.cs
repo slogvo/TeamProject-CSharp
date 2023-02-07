@@ -691,13 +691,13 @@
             this.btnChinhSuaTL.Name = "btnChinhSuaTL";
             this.btnChinhSuaTL.Size = new System.Drawing.Size(156, 53);
             this.btnChinhSuaTL.TabIndex = 21;
-            this.btnChinhSuaTL.Text = "Chỉnh Sửa";
+            this.btnChinhSuaTL.Text = "Chỉnh sửa";
             this.btnChinhSuaTL.UseVisualStyleBackColor = false;
             this.btnChinhSuaTL.Click += new System.EventHandler(this.btnChinhSuaTL_Click);
             // 
             // btnHuyTL
             // 
-            this.btnHuyTL.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(23)))), ((int)(((byte)(39)))));
+            this.btnHuyTL.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(195)))), ((int)(((byte)(195)))), ((int)(((byte)(195)))));
             this.btnHuyTL.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnHuyTL.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnHuyTL.ForeColor = System.Drawing.SystemColors.ButtonFace;
@@ -1284,7 +1284,7 @@
             // 
             // btnSaveReport
             // 
-            this.btnSaveReport.BackColor = System.Drawing.Color.Orange;
+            this.btnSaveReport.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(23)))), ((int)(((byte)(39)))));
             this.btnSaveReport.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnSaveReport.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSaveReport.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -1444,7 +1444,7 @@
             // 
             // btnChinhSua_CTPM
             // 
-            this.btnChinhSua_CTPM.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(62)))), ((int)(((byte)(129)))));
+            this.btnChinhSua_CTPM.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(23)))), ((int)(((byte)(39)))));
             this.btnChinhSua_CTPM.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnChinhSua_CTPM.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnChinhSua_CTPM.ForeColor = System.Drawing.Color.White;
@@ -1453,13 +1453,13 @@
             this.btnChinhSua_CTPM.Name = "btnChinhSua_CTPM";
             this.btnChinhSua_CTPM.Size = new System.Drawing.Size(184, 53);
             this.btnChinhSua_CTPM.TabIndex = 55;
-            this.btnChinhSua_CTPM.Text = "Chỉnh Sửa";
+            this.btnChinhSua_CTPM.Text = "Chỉnh sửa";
             this.btnChinhSua_CTPM.UseVisualStyleBackColor = false;
             this.btnChinhSua_CTPM.Click += new System.EventHandler(this.btnChinhSua_PhieuMuon_Click);
             // 
             // btnHuy_PhieuMuon
             // 
-            this.btnHuy_PhieuMuon.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(62)))), ((int)(((byte)(129)))));
+            this.btnHuy_PhieuMuon.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(195)))), ((int)(((byte)(195)))), ((int)(((byte)(195)))));
             this.btnHuy_PhieuMuon.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnHuy_PhieuMuon.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnHuy_PhieuMuon.ForeColor = System.Drawing.SystemColors.ButtonFace;
@@ -1474,7 +1474,7 @@
             // 
             // btnLuuCTPM
             // 
-            this.btnLuuCTPM.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(62)))), ((int)(((byte)(129)))));
+            this.btnLuuCTPM.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(23)))), ((int)(((byte)(39)))));
             this.btnLuuCTPM.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnLuuCTPM.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLuuCTPM.ForeColor = System.Drawing.Color.White;
@@ -1697,6 +1697,7 @@
             this.btnXoaMTLTrongList.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnXoaMTLTrongList.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnXoaMTLTrongList.Location = new System.Drawing.Point(760, 217);
+            this.btnXoaMTLTrongList.ForeColor = System.Drawing.Color.White;
             this.btnXoaMTLTrongList.Margin = new System.Windows.Forms.Padding(4);
             this.btnXoaMTLTrongList.Name = "btnXoaMTLTrongList";
             this.btnXoaMTLTrongList.Size = new System.Drawing.Size(113, 37);
@@ -1890,7 +1891,7 @@
             // 
             // btnChinhSua_PhieuTra
             // 
-            this.btnChinhSua_PhieuTra.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(72)))), ((int)(((byte)(129)))));
+            this.btnChinhSua_PhieuTra.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(23)))), ((int)(((byte)(39)))));
             this.btnChinhSua_PhieuTra.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnChinhSua_PhieuTra.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnChinhSua_PhieuTra.ForeColor = System.Drawing.Color.White;
@@ -1899,13 +1900,13 @@
             this.btnChinhSua_PhieuTra.Name = "btnChinhSua_PhieuTra";
             this.btnChinhSua_PhieuTra.Size = new System.Drawing.Size(184, 53);
             this.btnChinhSua_PhieuTra.TabIndex = 55;
-            this.btnChinhSua_PhieuTra.Text = "Chỉnh Sửa";
+            this.btnChinhSua_PhieuTra.Text = "Chỉnh sửa";
             this.btnChinhSua_PhieuTra.UseVisualStyleBackColor = false;
             this.btnChinhSua_PhieuTra.Click += new System.EventHandler(this.btnChinhSua_PhieuTra_Click);
             // 
             // btnHuy_PhieuTra
             // 
-            this.btnHuy_PhieuTra.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(72)))), ((int)(((byte)(129)))));
+            this.btnHuy_PhieuTra.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(195)))), ((int)(((byte)(195)))), ((int)(((byte)(195)))));
             this.btnHuy_PhieuTra.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnHuy_PhieuTra.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnHuy_PhieuTra.ForeColor = System.Drawing.SystemColors.ButtonFace;
@@ -1920,7 +1921,7 @@
             // 
             // btnLuuPhieuTra
             // 
-            this.btnLuuPhieuTra.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(72)))), ((int)(((byte)(129)))));
+            this.btnLuuPhieuTra.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17 )))), ((int)(((byte)(23)))), ((int)(((byte)(39)))));
             this.btnLuuPhieuTra.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnLuuPhieuTra.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLuuPhieuTra.ForeColor = System.Drawing.Color.White;
@@ -2095,7 +2096,8 @@
             this.btnXoaSachTra.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnXoaSachTra.Location = new System.Drawing.Point(539, 268);
             this.btnXoaSachTra.Margin = new System.Windows.Forms.Padding(4);
-            this.btnXoaSachTra.Name = "btnXoaSachTra";
+            this.btnXoaSachTra.ForeColor = System.Drawing.Color.White;
+                        this.btnXoaSachTra.Name = "btnXoaSachTra";
             this.btnXoaSachTra.Size = new System.Drawing.Size(123, 32);
             this.btnXoaSachTra.TabIndex = 39;
             this.btnXoaSachTra.Text = "Xóa";
@@ -2104,7 +2106,7 @@
             // 
             // btnAddSachTra
             // 
-            this.btnAddSachTra.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(141)))), ((int)(((byte)(172)))));
+            this.btnAddSachTra.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(72)))), ((int)(((byte)(210)))), ((int)(((byte)(148)))));
             this.btnAddSachTra.FlatAppearance.BorderSize = 0;
             this.btnAddSachTra.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAddSachTra.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -2215,7 +2217,7 @@
             // 
             // button18
             // 
-            this.button18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.button18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(23)))), ((int)(((byte)(39)))));
             this.button18.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.button18.ForeColor = System.Drawing.Color.White;
             this.button18.Location = new System.Drawing.Point(148, 436);
@@ -2223,12 +2225,12 @@
             this.button18.Name = "button18";
             this.button18.Size = new System.Drawing.Size(184, 53);
             this.button18.TabIndex = 38;
-            this.button18.Text = "Chỉnh Sửa";
+            this.button18.Text = "Chỉnh sửa";
             this.button18.UseVisualStyleBackColor = false;
             // 
             // button19
             // 
-            this.button19.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.button19.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(195)))), ((int)(((byte)(195)))), ((int)(((byte)(195)))));
             this.button19.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.button19.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.button19.Location = new System.Drawing.Point(725, 434);
@@ -2241,7 +2243,7 @@
             // 
             // button23
             // 
-            this.button23.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.button23.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(23)))), ((int)(((byte)(39)))));
             this.button23.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.button23.ForeColor = System.Drawing.Color.White;
             this.button23.Location = new System.Drawing.Point(425, 436);
@@ -2647,7 +2649,7 @@
             // 
             // btnChinhSuaPNN
             // 
-            this.btnChinhSuaPNN.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(72)))), ((int)(((byte)(129)))));
+            this.btnChinhSuaPNN.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(23)))), ((int)(((byte)(39)))));
             this.btnChinhSuaPNN.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnChinhSuaPNN.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnChinhSuaPNN.ForeColor = System.Drawing.Color.White;
@@ -2656,7 +2658,7 @@
             this.btnChinhSuaPNN.Name = "btnChinhSuaPNN";
             this.btnChinhSuaPNN.Size = new System.Drawing.Size(156, 42);
             this.btnChinhSuaPNN.TabIndex = 37;
-            this.btnChinhSuaPNN.Text = "Chỉnh Sửa";
+            this.btnChinhSuaPNN.Text = "Chỉnh sửa";
             this.btnChinhSuaPNN.UseVisualStyleBackColor = false;
             this.btnChinhSuaPNN.Click += new System.EventHandler(this.btnChinhSuaPNN_Click);
             // 
@@ -2716,7 +2718,7 @@
             // 
             // btnThemPhieuNhacNho
             // 
-            this.btnThemPhieuNhacNho.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(72)))), ((int)(((byte)(129)))));
+            this.btnThemPhieuNhacNho.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(72)))), ((int)(((byte)(210)))), ((int)(((byte)(148)))));
             this.btnThemPhieuNhacNho.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnThemPhieuNhacNho.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnThemPhieuNhacNho.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
@@ -2830,7 +2832,7 @@
             // 
             // btnADTLDG
             // 
-            this.btnADTLDG.BackColor = System.Drawing.Color.Teal;
+            this.btnADTLDG.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(72)))), ((int)(((byte)(210)))), ((int)(((byte)(148)))));
             this.btnADTLDG.FlatAppearance.BorderSize = 0;
             this.btnADTLDG.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnADTLDG.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -2846,7 +2848,7 @@
             // 
             // btnADCNLDG
             // 
-            this.btnADCNLDG.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(225)))), ((int)(((byte)(85)))), ((int)(((byte)(85)))));
+            this.btnADCNLDG.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(141)))), ((int)(((byte)(241)))));
             this.btnADCNLDG.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnADCNLDG.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnADCNLDG.ForeColor = System.Drawing.Color.White;
@@ -3146,7 +3148,7 @@
             this.btnXoaNV.FlatAppearance.BorderSize = 0;
             this.btnXoaNV.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnXoaNV.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnXoaNV.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnXoaNV.ForeColor = System.Drawing.Color.White;
             this.btnXoaNV.Location = new System.Drawing.Point(613, 240);
             this.btnXoaNV.Margin = new System.Windows.Forms.Padding(4);
             this.btnXoaNV.Name = "btnXoaNV";
@@ -3227,7 +3229,7 @@
             this.tabPage7.Controls.Add(this.lblDinhDanhSearch);
             this.tabPage7.Controls.Add(this.lblMaDGSearch);
             this.tabPage7.Controls.Add(this.rdHoTenSearch);
-            this.tabPage7.Controls.Add(this.rdMaDinhDanhSearch);
+            //this.tabPage7.Controls.Add(this.rdMaDinhDanhSearch);
             this.tabPage7.Controls.Add(this.rdMaDGSearch);
             this.tabPage7.Controls.Add(this.txtSearchDG);
             this.tabPage7.Controls.Add(this.label30);
@@ -3489,7 +3491,7 @@
             // 
             // btnChinhSua
             // 
-            this.btnChinhSua.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(58)))), ((int)(((byte)(63)))), ((int)(((byte)(72)))));
+            this.btnChinhSua.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(23)))), ((int)(((byte)(39)))));
             this.btnChinhSua.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnChinhSua.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnChinhSua.ForeColor = System.Drawing.Color.White;
@@ -3498,13 +3500,13 @@
             this.btnChinhSua.Name = "btnChinhSua";
             this.btnChinhSua.Size = new System.Drawing.Size(184, 53);
             this.btnChinhSua.TabIndex = 21;
-            this.btnChinhSua.Text = "Chỉnh Sửa";
+            this.btnChinhSua.Text = "Chỉnh sửa";
             this.btnChinhSua.UseVisualStyleBackColor = false;
             this.btnChinhSua.Click += new System.EventHandler(this.btnChinhSua_Click);
             // 
             // btnHuy
             // 
-            this.btnHuy.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(58)))), ((int)(((byte)(63)))), ((int)(((byte)(72)))));
+            this.btnHuy.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(195)))), ((int)(((byte)(195)))), ((int)(((byte)(195)))));
             this.btnHuy.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnHuy.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnHuy.ForeColor = System.Drawing.SystemColors.ButtonFace;
@@ -3519,7 +3521,7 @@
             // 
             // btnLuu
             // 
-            this.btnLuu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(58)))), ((int)(((byte)(63)))), ((int)(((byte)(72)))));
+            this.btnLuu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(23)))), ((int)(((byte)(39)))));
             this.btnLuu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnLuu.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLuu.ForeColor = System.Drawing.Color.White;
@@ -3538,7 +3540,7 @@
             this.btnXemAllDocGia.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnXemAllDocGia.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnXemAllDocGia.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnXemAllDocGia.Location = new System.Drawing.Point(921, 84);
+            this.btnXemAllDocGia.Location = new System.Drawing.Point(850, 84);
             this.btnXemAllDocGia.Margin = new System.Windows.Forms.Padding(4);
             this.btnXemAllDocGia.Name = "btnXemAllDocGia";
             this.btnXemAllDocGia.Size = new System.Drawing.Size(155, 41);
@@ -3644,7 +3646,7 @@
             this.btnSearchDocGia.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnSearchDocGia.Image = ((System.Drawing.Image)(resources.GetObject("btnSearchDocGia.Image")));
             this.btnSearchDocGia.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSearchDocGia.Location = new System.Drawing.Point(675, 85);
+            this.btnSearchDocGia.Location = new System.Drawing.Point(590, 85);
             this.btnSearchDocGia.Margin = new System.Windows.Forms.Padding(4);
             this.btnSearchDocGia.Name = "btnSearchDocGia";
             this.btnSearchDocGia.Size = new System.Drawing.Size(164, 41);
@@ -3658,7 +3660,7 @@
             // 
             this.lblHoTenSearch.AutoSize = true;
             this.lblHoTenSearch.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblHoTenSearch.Location = new System.Drawing.Point(675, 21);
+            this.lblHoTenSearch.Location = new System.Drawing.Point(590, 21);
             this.lblHoTenSearch.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblHoTenSearch.Name = "lblHoTenSearch";
             this.lblHoTenSearch.Size = new System.Drawing.Size(79, 25);
@@ -3680,7 +3682,7 @@
             // 
             this.lblMaDGSearch.AutoSize = true;
             this.lblMaDGSearch.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMaDGSearch.Location = new System.Drawing.Point(675, 23);
+            this.lblMaDGSearch.Location = new System.Drawing.Point(590, 21);
             this.lblMaDGSearch.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblMaDGSearch.Name = "lblMaDGSearch";
             this.lblMaDGSearch.Size = new System.Drawing.Size(119, 25);
@@ -3691,7 +3693,7 @@
             // 
             this.rdHoTenSearch.AutoSize = true;
             this.rdHoTenSearch.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rdHoTenSearch.Location = new System.Drawing.Point(192, 101);
+            this.rdHoTenSearch.Location = new System.Drawing.Point(350, 21);
             this.rdHoTenSearch.Margin = new System.Windows.Forms.Padding(4);
             this.rdHoTenSearch.Name = "rdHoTenSearch";
             this.rdHoTenSearch.Size = new System.Drawing.Size(91, 29);
@@ -3705,7 +3707,7 @@
             // 
             this.rdMaDinhDanhSearch.AutoSize = true;
             this.rdMaDinhDanhSearch.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rdMaDinhDanhSearch.Location = new System.Drawing.Point(192, 57);
+            this.rdMaDinhDanhSearch.Location = new System.Drawing.Point(192, 21);
             this.rdMaDinhDanhSearch.Margin = new System.Windows.Forms.Padding(4);
             this.rdMaDinhDanhSearch.Name = "rdMaDinhDanhSearch";
             this.rdMaDinhDanhSearch.Size = new System.Drawing.Size(202, 29);
@@ -3719,7 +3721,7 @@
             // 
             this.rdMaDGSearch.AutoSize = true;
             this.rdMaDGSearch.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rdMaDGSearch.Location = new System.Drawing.Point(192, 12);
+            this.rdMaDGSearch.Location = new System.Drawing.Point(192, 21);
             this.rdMaDGSearch.Margin = new System.Windows.Forms.Padding(4);
             this.rdMaDGSearch.Name = "rdMaDGSearch";
             this.rdMaDGSearch.Size = new System.Drawing.Size(131, 29);
@@ -3732,7 +3734,7 @@
             // txtSearchDG
             // 
             this.txtSearchDG.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtSearchDG.Location = new System.Drawing.Point(823, 17);
+            this.txtSearchDG.Location = new System.Drawing.Point(730, 17);
             this.txtSearchDG.Margin = new System.Windows.Forms.Padding(4);
             this.txtSearchDG.Name = "txtSearchDG";
             this.txtSearchDG.Size = new System.Drawing.Size(268, 32);
@@ -3742,7 +3744,7 @@
             // 
             this.label30.AutoSize = true;
             this.label30.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label30.Location = new System.Drawing.Point(21, 59);
+            this.label30.Location = new System.Drawing.Point(21, 21);
             this.label30.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label30.Name = "label30";
             this.label30.Size = new System.Drawing.Size(146, 25);

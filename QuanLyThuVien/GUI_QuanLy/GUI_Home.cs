@@ -754,7 +754,7 @@ namespace GUI_QuanLy
             string select = cbxDinhDanh.GetItemText(this.cbxDinhDanh.SelectedItem);
             if ((rdMaDGSearch.Checked == false && rdMaDinhDanhSearch.Checked == false && rdHoTenSearch.Checked == false) || (rdMaDinhDanhSearch.Checked == true && select == "") || (txtSearchDG.Text == ""))
             {
-                MessageBox.Show("Lỗi! \nCần nhập đầy đủ thông tin cần tìm kiếm");
+                MessageBox.Show("Lưu ý! Cần nhập đầy đủ thông tin cần tìm kiếm");
                 return;
             }
             else
