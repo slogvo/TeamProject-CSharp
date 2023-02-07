@@ -1,7 +1,7 @@
-﻿/***  REMEMBER: THÊM STATUS = TRUE OR FALSE CHO MỖI BẢNG NẾU CÓ TRẠNG THÁI XÓA ( DELETE), THÊM 1 TABLE LOẠI TÀI LIỆU ĐỂ PHÂN BIỆT LOẠI TẠI LIỆU NỮA, CHỈNH SỬA THÊM MẤY HÀM XÓA CHỈ CẨN UPDATE STATUS = FALSE LÀ HIDE NÓ ĐI ****/
+/***  REMEMBER: THÊM STATUS = TRUE OR FALSE CHO MỖI BẢNG NẾU CÓ TRẠNG THÁI XÓA ( DELETE), THÊM 1TABLE LOẠI TÀI LIỆU ĐỂ PHÂN BIỆT LOẠI TẠI LIỆU NỮA, CHỈNH SỬA THÊM MẤY HÀM XÓA CHỈ CẨN UPDATE STATUS = FALSE LÀ HIDE NÓ ĐI ****/
 USE [master]
 GO
-
+/****** Object:  Database [QL_thuvien]    Script Date: 1/3/2018 5:38:41 PM ******/
 CREATE DATABASE [QL_thuvien]
  CONTAINMENT = NONE
 ALTER DATABASE [QL_thuvien] SET COMPATIBILITY_LEVEL = 110
@@ -71,7 +71,7 @@ ALTER DATABASE [QL_thuvien] SET TARGET_RECOVERY_TIME = 0 SECONDS
 GO
 USE [QL_thuvien]
 GO
-/****** Object:  StoredProcedure [dbo].[usp_AD_Add_LDG]    ******/
+/****** Object:  StoredProcedure [dbo].[usp_AD_Add_LDG]    Script Date: 1/3/2018 5:38:42 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -89,7 +89,7 @@ end
 
 
 GO
-/****** Object:  StoredProcedure [dbo].[usp_AD_UP_LDG]   ******/
+/****** Object:  StoredProcedure [dbo].[usp_AD_UP_LDG]    Script Date: 1/3/2018 5:38:42 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -109,7 +109,7 @@ end
 
 
 GO
-/****** Object:  StoredProcedure [dbo].[usp_CapNhatDocGia]   ******/
+/****** Object:  StoredProcedure [dbo].[usp_CapNhatDocGia]    Script Date: 1/3/2018 5:38:42 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -131,7 +131,7 @@ end
 
 
 GO
-/****** Object:  StoredProcedure [dbo].[usp_CapNhatNhanVien]   ******/
+/****** Object:  StoredProcedure [dbo].[usp_CapNhatNhanVien]    Script Date: 1/3/2018 5:38:42 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -152,7 +152,7 @@ end
 
 
 GO
-/****** Object:  StoredProcedure [dbo].[usp_CapNhatPhieuMuon]  ******/
+/****** Object:  StoredProcedure [dbo].[usp_CapNhatPhieuMuon]    Script Date: 1/3/2018 5:38:42 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -168,7 +168,7 @@ begin
 	end
 end
 GO
-/****** Object:  StoredProcedure [dbo].[usp_ChinhSuaPhieuTra]   ******/
+/****** Object:  StoredProcedure [dbo].[usp_ChinhSuaPhieuTra]    Script Date: 1/3/2018 5:38:42 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -188,7 +188,7 @@ end
 
 
 GO
-/****** Object:  StoredProcedure [dbo].[usp_DeleteTaiLieu]    ******/
+/****** Object:  StoredProcedure [dbo].[usp_DeleteTaiLieu]    Script Date: 1/3/2018 5:38:42 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -207,7 +207,7 @@ end
 
 
 GO
-/****** Object:  StoredProcedure [dbo].[usp_InsertTaiLieu]   ******/
+/****** Object:  StoredProcedure [dbo].[usp_InsertTaiLieu]    Script Date: 1/3/2018 5:38:42 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -221,7 +221,7 @@ begin
 	values( @MaTaiLieu, @TenTaiLieu, @LoaiTaiLieu, @SoLuong, @DacBiet)
 end
 GO
-/****** Object:  StoredProcedure [dbo].[usp_KiemTraMuonTaiLieuDacBiet]   ******/
+/****** Object:  StoredProcedure [dbo].[usp_KiemTraMuonTaiLieuDacBiet]    Script Date: 1/3/2018 5:38:42 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -243,7 +243,7 @@ begin
 end
 
 GO
-/****** Object:  StoredProcedure [dbo].[usp_LayDanhSachDocGia]     ******/
+/****** Object:  StoredProcedure [dbo].[usp_LayDanhSachDocGia]    Script Date: 1/3/2018 5:38:42 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -258,7 +258,7 @@ end
 
 
 GO
-/****** Object:  StoredProcedure [dbo].[usp_LayDanhSachTaiLieu]   ******/
+/****** Object:  StoredProcedure [dbo].[usp_LayDanhSachTaiLieu]    Script Date: 1/3/2018 5:38:42 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -273,7 +273,7 @@ end
 
 
 GO
-/****** Object:  StoredProcedure [dbo].[usp_LayMaDocGiaDePhat]    ******/
+/****** Object:  StoredProcedure [dbo].[usp_LayMaDocGiaDePhat]    Script Date: 1/3/2018 5:38:42 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -285,7 +285,7 @@ begin
 end
 
 GO
-/****** Object:  StoredProcedure [dbo].[usp_LayMaNhanVienHienTai]   ******/
+/****** Object:  StoredProcedure [dbo].[usp_LayMaNhanVienHienTai]    Script Date: 1/3/2018 5:38:42 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -307,7 +307,7 @@ end
 
 
 GO
-/****** Object:  StoredProcedure [dbo].[usp_LayMaTLCuaPM]   ******/
+/****** Object:  StoredProcedure [dbo].[usp_LayMaTLCuaPM]    Script Date: 1/3/2018 5:38:42 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -327,7 +327,7 @@ end
 
 
 GO
-/****** Object:  StoredProcedure [dbo].[usp_LayQuyenNhanVien]  ******/
+/****** Object:  StoredProcedure [dbo].[usp_LayQuyenNhanVien]    Script Date: 1/3/2018 5:38:42 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -350,7 +350,7 @@ end
 
 
 GO
-/****** Object:  StoredProcedure [dbo].[usp_LaySoLanViPhamCuaPhieuMuon]   ******/
+/****** Object:  StoredProcedure [dbo].[usp_LaySoLanViPhamCuaPhieuMuon]    Script Date: 1/3/2018 5:38:42 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -368,7 +368,7 @@ begin
 end
 
 GO
-/****** Object:  StoredProcedure [dbo].[usp_LaySoNgayQuaHan]  ******/
+/****** Object:  StoredProcedure [dbo].[usp_LaySoNgayQuaHan]    Script Date: 1/3/2018 5:38:42 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -382,7 +382,7 @@ begin
 end
 
 GO
-/****** Object:  StoredProcedure [dbo].[usp_LaySoSachCuaPM]   ******/
+/****** Object:  StoredProcedure [dbo].[usp_LaySoSachCuaPM]    Script Date: 1/3/2018 5:38:42 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -396,7 +396,7 @@ begin
 end
 
 GO
-/****** Object:  StoredProcedure [dbo].[usp_LaySoSachMuonToiDa]  ******/
+/****** Object:  StoredProcedure [dbo].[usp_LaySoSachMuonToiDa]    Script Date: 1/3/2018 5:38:42 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -411,7 +411,7 @@ end
 
 
 GO
-/****** Object:  StoredProcedure [dbo].[usp_LayTenNhanVien]  ******/
+/****** Object:  StoredProcedure [dbo].[usp_LayTenNhanVien]    Script Date: 1/3/2018 5:38:42 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -433,7 +433,7 @@ end
 
 
 GO
-/****** Object:  StoredProcedure [dbo].[usp_LoadLoaiDocGia]   ******/
+/****** Object:  StoredProcedure [dbo].[usp_LoadLoaiDocGia]    Script Date: 1/3/2018 5:38:42 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -447,7 +447,7 @@ end
 
 
 GO
-/****** Object:  StoredProcedure [dbo].[usp_LoadMaPhieuMuon]   ******/
+/****** Object:  StoredProcedure [dbo].[usp_LoadMaPhieuMuon]    Script Date: 1/3/2018 5:38:42 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -470,7 +470,7 @@ drop proc usp_LoadMaTLCuaPM
 
 
 GO
-/****** Object:  StoredProcedure [dbo].[usp_LoadTheLoaiTaiLieu]    ******/
+/****** Object:  StoredProcedure [dbo].[usp_LoadTheLoaiTaiLieu]    Script Date: 1/3/2018 5:38:42 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -485,7 +485,7 @@ end
 
 
 GO
-/****** Object:  StoredProcedure [dbo].[usp_Login]    ******/
+/****** Object:  StoredProcedure [dbo].[usp_Login]    Script Date: 1/3/2018 5:38:42 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -505,7 +505,7 @@ end
 
 
 GO
-/****** Object:  StoredProcedure [dbo].[usp_SearchDocGia]   ******/
+/****** Object:  StoredProcedure [dbo].[usp_SearchDocGia]    Script Date: 1/3/2018 5:38:42 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -529,7 +529,7 @@ GO
 
 
 GO
-/****** Object:  StoredProcedure [dbo].[usp_SearchPPTheoMaDG]   ******/
+/****** Object:  StoredProcedure [dbo].[usp_SearchPPTheoMaDG]    Script Date: 1/3/2018 5:38:42 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -543,7 +543,7 @@ end
 
 
 GO
-/****** Object:  StoredProcedure [dbo].[usp_SearchPPTheoMaPM]   ******/
+/****** Object:  StoredProcedure [dbo].[usp_SearchPPTheoMaPM]    Script Date: 1/3/2018 5:38:42 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -557,7 +557,7 @@ end
 
 
 GO
-/****** Object:  StoredProcedure [dbo].[usp_SearchPPTheoMaPP]   ******/
+/****** Object:  StoredProcedure [dbo].[usp_SearchPPTheoMaPP]    Script Date: 1/3/2018 5:38:42 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -571,7 +571,7 @@ end
 
 
 GO
-/****** Object:  StoredProcedure [dbo].[usp_SearchPhieuMuonTheoMaDocGia]   ******/
+/****** Object:  StoredProcedure [dbo].[usp_SearchPhieuMuonTheoMaDocGia]    Script Date: 1/3/2018 5:38:42 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -594,7 +594,7 @@ GO
 
 
 GO
-/****** Object:  StoredProcedure [dbo].[usp_SearchPhieuMuonTheoMaPM]     ******/
+/****** Object:  StoredProcedure [dbo].[usp_SearchPhieuMuonTheoMaPM]    Script Date: 1/3/2018 5:38:42 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -615,7 +615,7 @@ GO
 
 
 GO
-/****** Object:  StoredProcedure [dbo].[usp_SearchPhieuNN]    ******/
+/****** Object:  StoredProcedure [dbo].[usp_SearchPhieuNN]    Script Date: 1/3/2018 5:38:42 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -630,7 +630,7 @@ end
 
 
 GO
-/****** Object:  StoredProcedure [dbo].[usp_SearchPhieuTratheoMaDG]     ******/
+/****** Object:  StoredProcedure [dbo].[usp_SearchPhieuTratheoMaDG]    Script Date: 1/3/2018 5:38:42 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -647,7 +647,7 @@ GO
 
 
 GO
-/****** Object:  StoredProcedure [dbo].[usp_SearchPhieuTratheoMaPM]     ******/
+/****** Object:  StoredProcedure [dbo].[usp_SearchPhieuTratheoMaPM]    Script Date: 1/3/2018 5:38:42 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -663,7 +663,7 @@ GO
 
 
 GO
-/****** Object:  StoredProcedure [dbo].[usp_SearchPhieuTratheoMaPT]    ******/
+/****** Object:  StoredProcedure [dbo].[usp_SearchPhieuTratheoMaPT]    Script Date: 1/3/2018 5:38:42 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -679,7 +679,7 @@ GO
 
 
 GO
-/****** Object:  StoredProcedure [dbo].[usp_SearchTaiLieuTheoLoai]    ******/
+/****** Object:  StoredProcedure [dbo].[usp_SearchTaiLieuTheoLoai]    Script Date: 1/3/2018 5:38:42 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -701,7 +701,7 @@ end
 
 
 GO
-/****** Object:  StoredProcedure [dbo].[usp_SearchTaiLieuTheoMa]     ******/
+/****** Object:  StoredProcedure [dbo].[usp_SearchTaiLieuTheoMa]    Script Date: 1/3/2018 5:38:42 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -723,7 +723,7 @@ end
 
 
 GO
-/****** Object:  StoredProcedure [dbo].[usp_SearchTaiLieuTheoTen]   ******/
+/****** Object:  StoredProcedure [dbo].[usp_SearchTaiLieuTheoTen]    Script Date: 1/3/2018 5:38:42 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -744,7 +744,7 @@ end
 
 
 GO
-/****** Object:  StoredProcedure [dbo].[usp_SoLanViPham]    ******/
+/****** Object:  StoredProcedure [dbo].[usp_SoLanViPham]    Script Date: 1/3/2018 5:38:42 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -762,7 +762,7 @@ end
 
 
 GO
-/****** Object:  StoredProcedure [dbo].[usp_SoSachDangMuon]    ******/
+/****** Object:  StoredProcedure [dbo].[usp_SoSachDangMuon]    Script Date: 1/3/2018 5:38:42 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -783,7 +783,7 @@ GO
 end
 
 GO
-/****** Object:  StoredProcedure [dbo].[usp_soTaiLieuMuonNhieuNhat]     ******/
+/****** Object:  StoredProcedure [dbo].[usp_soTaiLieuMuonNhieuNhat]    Script Date: 1/3/2018 5:38:42 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -803,7 +803,7 @@ end
 
 
 GO
-/****** Object:  StoredProcedure [dbo].[usp_TimKiemDocGiaTheoCMND]    ******/
+/****** Object:  StoredProcedure [dbo].[usp_TimKiemDocGiaTheoCMND]    Script Date: 1/3/2018 5:38:42 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -823,7 +823,7 @@ GO
 	end
  end
 GO
-/****** Object:  StoredProcedure [dbo].[usp_TimKiemDocGiaTheoHoTen]   ******/
+/****** Object:  StoredProcedure [dbo].[usp_TimKiemDocGiaTheoHoTen]    Script Date: 1/3/2018 5:38:42 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -843,7 +843,7 @@ GO
 	end
  end
 GO
-/****** Object:  StoredProcedure [dbo].[usp_TimKiemDocGiaTheoMaDocGia]    ******/
+/****** Object:  StoredProcedure [dbo].[usp_TimKiemDocGiaTheoMaDocGia]    Script Date: 1/3/2018 5:38:42 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -863,7 +863,7 @@ CREATE proc [dbo].[usp_TimKiemDocGiaTheoMaDocGia] @MaDG char(15)
 	end
  end
 GO
-/****** Object:  StoredProcedure [dbo].[usp_TimKiemDocGiaTheoMSCB]    ******/
+/****** Object:  StoredProcedure [dbo].[usp_TimKiemDocGiaTheoMSCB]    Script Date: 1/3/2018 5:38:42 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -883,7 +883,7 @@ GO
 	end
  end
 GO
-/****** Object:  StoredProcedure [dbo].[usp_TimKiemDocGiaTheoMSSV]    ******/
+/****** Object:  StoredProcedure [dbo].[usp_TimKiemDocGiaTheoMSSV]    Script Date: 1/3/2018 5:38:42 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -903,7 +903,7 @@ GO
 	end
  end
 GO
-/****** Object:  StoredProcedure [dbo].[usp_TimKiemTatCaDocGia]    ******/
+/****** Object:  StoredProcedure [dbo].[usp_TimKiemTatCaDocGia]    Script Date: 1/3/2018 5:38:42 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -924,7 +924,7 @@ GO
 
 
 GO
-/****** Object:  StoredProcedure [dbo].[usp_TimMaCTPTTiepTheo]    ******/
+/****** Object:  StoredProcedure [dbo].[usp_TimMaCTPTTiepTheo]    Script Date: 1/3/2018 5:38:42 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -952,7 +952,7 @@ end
 
 
 GO
-/****** Object:  StoredProcedure [dbo].[usp_TimMaChiTietPhieuMuonTiepTheo]   ******/
+/****** Object:  StoredProcedure [dbo].[usp_TimMaChiTietPhieuMuonTiepTheo]    Script Date: 1/3/2018 5:38:42 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -984,7 +984,7 @@ if OBJECT_ID('usp_ThemCTietPhieuMuon') is not null
 
 
 GO
-/****** Object:  StoredProcedure [dbo].[usp_TimMaDGTiepTheo]   ******/
+/****** Object:  StoredProcedure [dbo].[usp_TimMaDGTiepTheo]    Script Date: 1/3/2018 5:38:42 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1013,7 +1013,7 @@ end
 
 
 GO
-/****** Object:  StoredProcedure [dbo].[usp_TimMaNVTiepTheo]    ******/
+/****** Object:  StoredProcedure [dbo].[usp_TimMaNVTiepTheo]    Script Date: 1/3/2018 5:38:42 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1042,7 +1042,7 @@ end
 
 
 GO
-/****** Object:  StoredProcedure [dbo].[usp_TimMaPhieuMuonTiepTheo]    ******/
+/****** Object:  StoredProcedure [dbo].[usp_TimMaPhieuMuonTiepTheo]    Script Date: 1/3/2018 5:38:42 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1070,7 +1070,7 @@ end
 
 
 GO
-/****** Object:  StoredProcedure [dbo].[usp_TimMaPhieuPhatTiepTheo]   ******/
+/****** Object:  StoredProcedure [dbo].[usp_TimMaPhieuPhatTiepTheo]    Script Date: 1/3/2018 5:38:42 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1094,7 +1094,7 @@ end
 
 
 GO
-/****** Object:  StoredProcedure [dbo].[usp_TimMaPhieuTraTiepTheo]     ******/
+/****** Object:  StoredProcedure [dbo].[usp_TimMaPhieuTraTiepTheo]    Script Date: 1/3/2018 5:38:42 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1123,7 +1123,7 @@ end
 
 
 GO
-/****** Object:  StoredProcedure [dbo].[usp_TimMaTLTiepTheo]    ******/
+/****** Object:  StoredProcedure [dbo].[usp_TimMaTLTiepTheo]    Script Date: 1/3/2018 5:38:42 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1151,7 +1151,7 @@ end
 
 
 GO
-/****** Object:  StoredProcedure [dbo].[usp_ThemChiTietPhieuMuon]    ******/
+/****** Object:  StoredProcedure [dbo].[usp_ThemChiTietPhieuMuon]    Script Date: 1/3/2018 5:38:42 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1172,7 +1172,7 @@ end
 
 
 GO
-/****** Object:  StoredProcedure [dbo].[usp_ThemChiTietPhieuTra]    ******/
+/****** Object:  StoredProcedure [dbo].[usp_ThemChiTietPhieuTra]    Script Date: 1/3/2018 5:38:42 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1196,7 +1196,7 @@ end
 
 
 GO
-/****** Object:  StoredProcedure [dbo].[usp_ThemDocGia]    ******/
+/****** Object:  StoredProcedure [dbo].[usp_ThemDocGia]    Script Date: 1/3/2018 11:27:13 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1255,7 +1255,7 @@ create proc sp_KiemtraHetHan @madg nchar(10),@thongbao nvarchar(10) out
 end
 
 GO
-/****** Object:  StoredProcedure [dbo].[usp_ThemNhanVien]    ******/
+/****** Object:  StoredProcedure [dbo].[usp_ThemNhanVien]    Script Date: 1/3/2018 5:38:42 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1279,7 +1279,7 @@ end
 
 
 GO
-/****** Object:  StoredProcedure [dbo].[usp_ThemPhieuMuon]    ******/
+/****** Object:  StoredProcedure [dbo].[usp_ThemPhieuMuon]    Script Date: 1/3/2018 5:38:42 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1307,7 +1307,7 @@ end
 
 
 GO
-/****** Object:  StoredProcedure [dbo].[usp_ThemPhieuNhacNho]     ******/
+/****** Object:  StoredProcedure [dbo].[usp_ThemPhieuNhacNho]    Script Date: 1/3/2018 5:38:42 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1330,7 +1330,7 @@ end
 
 
 GO
-/****** Object:  StoredProcedure [dbo].[usp_ThemPhieuPhat]     ******/
+/****** Object:  StoredProcedure [dbo].[usp_ThemPhieuPhat]    Script Date: 1/3/2018 5:38:42 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1373,7 +1373,7 @@ begin
 end
 
 GO
-/****** Object:  StoredProcedure [dbo].[usp_ThemPhieuTra]   ******/
+/****** Object:  StoredProcedure [dbo].[usp_ThemPhieuTra]    Script Date: 1/3/2018 5:38:42 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1391,7 +1391,7 @@ end
 
 
 GO
-/****** Object:  StoredProcedure [dbo].[usp_ThemYeuCauTaiLieu]  ******/
+/****** Object:  StoredProcedure [dbo].[usp_ThemYeuCauTaiLieu]    Script Date: 1/3/2018 5:38:42 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1422,7 +1422,7 @@ end
 
 
 GO
-/****** Object:  StoredProcedure [dbo].[usp_UpdatePNN]    ******/
+/****** Object:  StoredProcedure [dbo].[usp_UpdatePNN]    Script Date: 1/3/2018 5:38:42 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1441,7 +1441,7 @@ end
 
 
 GO
-/****** Object:  StoredProcedure [dbo].[usp_UpdateTaiLieu]    ******/
+/****** Object:  StoredProcedure [dbo].[usp_UpdateTaiLieu]    Script Date: 1/3/2018 5:38:42 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1454,7 +1454,7 @@ begin
 	where MaTaiLieu = @MaTaiLieu
 end
 GO
-/****** Object:  StoredProcedure [dbo].[usp_XemAllTaiLieu]   ******/
+/****** Object:  StoredProcedure [dbo].[usp_XemAllTaiLieu]    Script Date: 1/3/2018 5:38:42 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1474,7 +1474,7 @@ end
 
 
 GO
-/****** Object:  StoredProcedure [dbo].[usp_XemCTPhieuTra]    ******/
+/****** Object:  StoredProcedure [dbo].[usp_XemCTPhieuTra]    Script Date: 1/3/2018 5:38:42 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1494,7 +1494,7 @@ end
 
 
 GO
-/****** Object:  StoredProcedure [dbo].[usp_xemChiTietPhieuMuon]    ******/
+/****** Object:  StoredProcedure [dbo].[usp_xemChiTietPhieuMuon]    Script Date: 1/3/2018 5:38:42 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1514,7 +1514,7 @@ end
 
 
 GO
-/****** Object:  StoredProcedure [dbo].[usp_XemDocGia]    ******/
+/****** Object:  StoredProcedure [dbo].[usp_XemDocGia]    Script Date: 1/3/2018 5:38:42 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1536,7 +1536,7 @@ end
 
 
 GO
-/****** Object:  StoredProcedure [dbo].[usp_XemNhanVien]   ******/
+/****** Object:  StoredProcedure [dbo].[usp_XemNhanVien]    Script Date: 1/3/2018 5:38:42 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1549,7 +1549,7 @@ end
 
 
 GO
-/****** Object:  StoredProcedure [dbo].[usp_xemPhieuMuon]    ******/
+/****** Object:  StoredProcedure [dbo].[usp_xemPhieuMuon]    Script Date: 1/3/2018 5:38:42 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1569,7 +1569,7 @@ end
 
 
 GO
-/****** Object:  StoredProcedure [dbo].[usp_XemPhieuNhacNho]    ******/
+/****** Object:  StoredProcedure [dbo].[usp_XemPhieuNhacNho]    Script Date: 1/3/2018 5:38:42 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1589,7 +1589,7 @@ end
 
 
 GO
-/****** Object:  StoredProcedure [dbo].[usp_XemPhieuPhat]   ******/
+/****** Object:  StoredProcedure [dbo].[usp_XemPhieuPhat]    Script Date: 1/3/2018 5:38:42 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1610,7 +1610,7 @@ exec usp_XemPhieuPhat
 
 
 GO
-/****** Object:  StoredProcedure [dbo].[usp_XemPhieuTra]     ******/
+/****** Object:  StoredProcedure [dbo].[usp_XemPhieuTra]    Script Date: 1/3/2018 5:38:42 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1630,7 +1630,7 @@ end
 
 
 GO
-/****** Object:  StoredProcedure [dbo].[usp_XemYeuCauTaiLieu]    ******/
+/****** Object:  StoredProcedure [dbo].[usp_XemYeuCauTaiLieu]    Script Date: 1/3/2018 5:38:42 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1649,7 +1649,7 @@ end
 
 
 GO
-/****** Object:  StoredProcedure [dbo].[usp_XoaDocGia]    ******/
+/****** Object:  StoredProcedure [dbo].[usp_XoaDocGia]    Script Date: 1/3/2018 5:38:42 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1702,7 +1702,7 @@ end
 
 
 GO
-/****** Object:  StoredProcedure [dbo].[usp_XoaNhanVien]    ******/
+/****** Object:  StoredProcedure [dbo].[usp_XoaNhanVien]    Script Date: 1/3/2018 5:38:42 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1722,7 +1722,7 @@ end
 
 
 GO
-/****** Object:  StoredProcedure [dbo].[usp_XoaPhieuMuon]   ******/
+/****** Object:  StoredProcedure [dbo].[usp_XoaPhieuMuon]    Script Date: 1/3/2018 5:38:42 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1744,7 +1744,7 @@ GO
 
 
 GO
-/****** Object:  StoredProcedure [dbo].[usp_XoaPhieuNhacNho]   ******/
+/****** Object:  StoredProcedure [dbo].[usp_XoaPhieuNhacNho]    Script Date: 1/3/2018 5:38:42 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1760,7 +1760,7 @@ end
 
 
 GO
-/****** Object:  StoredProcedure [dbo].[usp_XoaPhieuPhat]     ******/
+/****** Object:  StoredProcedure [dbo].[usp_XoaPhieuPhat]    Script Date: 1/3/2018 5:38:42 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1777,7 +1777,7 @@ end
 
 
 GO
-/****** Object:  StoredProcedure [dbo].[usp_Xoaphieutra]    ******/
+/****** Object:  StoredProcedure [dbo].[usp_Xoaphieutra]    Script Date: 1/3/2018 5:38:42 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1802,7 +1802,7 @@ GO
 
 
 GO
-/****** Object:  StoredProcedure [dbo].[usp_XoaYeuCauTaiLieuMoi]   ******/
+/****** Object:  StoredProcedure [dbo].[usp_XoaYeuCauTaiLieuMoi]    Script Date: 1/3/2018 5:38:42 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1826,7 +1826,7 @@ end
 
 
 GO
-/****** Object:  Table [dbo].[CHI TIET PHIEU MUON]    ******/
+/****** Object:  Table [dbo].[CHI TIET PHIEU MUON]    Script Date: 1/3/2018 5:38:42 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1844,7 +1844,7 @@ CREATE TABLE [dbo].[CHI TIET PHIEU MUON](
 ) ON [PRIMARY]
 
 GO
-/****** Object:  Table [dbo].[CHI TIET PHIEU TRA]   ******/
+/****** Object:  Table [dbo].[CHI TIET PHIEU TRA]    Script Date: 1/3/2018 5:38:42 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1864,7 +1864,7 @@ CREATE TABLE [dbo].[CHI TIET PHIEU TRA](
 ) ON [PRIMARY]
 
 GO
-/****** Object:  Table [dbo].[DOC GIA]    ******/
+/****** Object:  Table [dbo].[DOC GIA]    Script Date: 1/3/2018 5:38:42 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1888,7 +1888,7 @@ CREATE TABLE [dbo].[DOC GIA](
 ) ON [PRIMARY]
 
 GO
-/****** Object:  Table [dbo].[LOAI DOC GIA]   ******/
+/****** Object:  Table [dbo].[LOAI DOC GIA]    Script Date: 1/3/2018 5:38:42 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1907,7 +1907,7 @@ CREATE TABLE [dbo].[LOAI DOC GIA](
 ) ON [PRIMARY]
 
 GO
-/****** Object:  Table [dbo].[LOAI NHANVIEN]    ******/
+/****** Object:  Table [dbo].[LOAI NHANVIEN]    Script Date: 1/3/2018 5:38:42 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1922,7 +1922,7 @@ CREATE TABLE [dbo].[LOAI NHANVIEN](
 ) ON [PRIMARY]
 
 GO
-/****** Object:  Table [dbo].[LOGIN REMEMBER]     ******/
+/****** Object:  Table [dbo].[LOGIN REMEMBER]    Script Date: 1/3/2018 5:38:42 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1933,7 +1933,7 @@ CREATE TABLE [dbo].[LOGIN REMEMBER](
 ) ON [PRIMARY]
 
 GO
-/****** Object:  Table [dbo].[NHAN VIEN]   ******/
+/****** Object:  Table [dbo].[NHAN VIEN]    Script Date: 1/3/2018 5:38:42 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1953,7 +1953,7 @@ CREATE TABLE [dbo].[NHAN VIEN](
 ) ON [PRIMARY]
 
 GO
-/****** Object:  Table [dbo].[NHAP TAI LIEU]    ******/
+/****** Object:  Table [dbo].[NHAP TAI LIEU]    Script Date: 1/3/2018 5:38:42 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1970,7 +1970,7 @@ CREATE TABLE [dbo].[NHAP TAI LIEU](
 ) ON [PRIMARY]
 
 GO
-/****** Object:  Table [dbo].[PHIEU MUON]   ******/
+/****** Object:  Table [dbo].[PHIEU MUON]    Script Date: 1/3/2018 5:38:42 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1987,7 +1987,7 @@ CREATE TABLE [dbo].[PHIEU MUON](
 ) ON [PRIMARY]
 
 GO
-/****** Object:  Table [dbo].[PHIEU NHAC NHO]    ******/
+/****** Object:  Table [dbo].[PHIEU NHAC NHO]    Script Date: 1/3/2018 5:38:42 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1998,7 +1998,7 @@ CREATE TABLE [dbo].[PHIEU NHAC NHO](
 ) ON [PRIMARY]
 
 GO
-/****** Object:  Table [dbo].[PHIEU PHAT]    ******/
+/****** Object:  Table [dbo].[PHIEU PHAT]    Script Date: 1/3/2018 5:38:42 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2017,7 +2017,7 @@ CREATE TABLE [dbo].[PHIEU PHAT](
 ) ON [PRIMARY]
 
 GO
-/****** Object:  Table [dbo].[PHIEU TRA]    ******/
+/****** Object:  Table [dbo].[PHIEU TRA]    Script Date: 1/3/2018 5:38:42 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2032,7 +2032,7 @@ CREATE TABLE [dbo].[PHIEU TRA](
 ) ON [PRIMARY]
 
 GO
-/****** Object:  Table [dbo].[TAI LIEU]   ******/
+/****** Object:  Table [dbo].[TAI LIEU]    Script Date: 1/3/2018 5:38:42 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2050,7 +2050,7 @@ CREATE TABLE [dbo].[TAI LIEU](
 ) ON [PRIMARY]
 
 GO
-/****** Object:  Table [dbo].[YEU CAU TAI LIEU]   ******/
+/****** Object:  Table [dbo].[YEU CAU TAI LIEU]    Script Date: 1/3/2018 5:38:42 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2376,6 +2376,9 @@ INSERT [dbo].[LOAI DOC GIA] ([MaLoaiDG], [SoNgayMuonToiDa], [SoSachMuonToiDa], [
 INSERT [dbo].[LOAI DOC GIA] ([MaLoaiDG], [SoNgayMuonToiDa], [SoSachMuonToiDa], [TenLoaiDG], [PhiThuongNien], [TaiKieuDB]) VALUES (N'SV        ', 10, 5, N'Sinh Vien', 90000, 0)
 INSERT [dbo].[LOAI NHANVIEN] ([MaLoaiNV], [TenLoaiNV]) VALUES (N'AD        ', N'Admin')
 INSERT [dbo].[LOAI NHANVIEN] ([MaLoaiNV], [TenLoaiNV]) VALUES (N'TT        ', N'Thủ Thư')
+INSERT [dbo].[NHAN VIEN] ([MaNV], [CaTruc], [TenDangNhap], [MatKhau], [HoTen], [LoginGanNhat], [LoaiNV]) VALUES (N'NV0001    ', 1, N'a         ', N'44f3b9f9f92f252f2aea97644ec88acce83245fc                                                                                                                                                                ', N'PKTÀI', CAST(0xB83D0B00 AS Date), N'AD        ')
+INSERT [dbo].[NHAN VIEN] ([MaNV], [CaTruc], [TenDangNhap], [MatKhau], [HoTen], [LoginGanNhat], [LoaiNV]) VALUES (N'NV0002    ', 2, N'B         ', N'ae4f281df5a5d0ff3cad6371f76d5c29b6d953ec                                                                                                                                                                ', N'HTTAI', CAST(0x523C0B00 AS Date), N'TT        ')
+INSERT [dbo].[NHAN VIEN] ([MaNV], [CaTruc], [TenDangNhap], [MatKhau], [HoTen], [LoginGanNhat], [LoaiNV]) VALUES (N'NV0003    ', 0, N'x         ', N'a43a71a83dc5cf63bd4b4d4c880aec09a1c18cd                                                                                                                                                                 ', N'X', CAST(0xB83D0B00 AS Date), N'AD        ')
 INSERT [dbo].[NHAP TAI LIEU] ([MaTLNhap], [SoLuong], [NgayNhap]) VALUES (N'TL021     ', 10, CAST(0x953D0B00 AS Date))
 INSERT [dbo].[NHAP TAI LIEU] ([MaTLNhap], [SoLuong], [NgayNhap]) VALUES (N'TL022     ', 5, CAST(0x953D0B00 AS Date))
 INSERT [dbo].[NHAP TAI LIEU] ([MaTLNhap], [SoLuong], [NgayNhap]) VALUES (N'TL023     ', 15, CAST(0x953D0B00 AS Date))
