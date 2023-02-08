@@ -3761,7 +3761,7 @@
             this.tabThemdg.Padding = new System.Windows.Forms.Padding(4);
             this.tabThemdg.Size = new System.Drawing.Size(1180, 529);
             this.tabThemdg.TabIndex = 1;
-            this.tabThemdg.Text = "Thêm Đọc Giả";
+            this.tabThemdg.Text = "Thêm Độc Giả";
             // 
             // groupBox3
             // 
@@ -4089,7 +4089,8 @@
             this.lbUserName.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.lbUserName.Size = new System.Drawing.Size(196, 66);
             this.lbUserName.TabIndex = 40;
-            this.lbUserName.Text = "Tên Đọc Giả :";
+            this.lbUserName.Text = "Tên Độc Giả :";
+
             this.lbUserName.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.lbUserName.UseCompatibleTextRendering = true;
             // 
